@@ -9,6 +9,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupWithNavController
 import com.example.quaketodayid.BaseApp
 import com.example.quaketodayid.R
 import com.example.quaketodayid.data.network.StatusResponse
@@ -16,15 +18,11 @@ import com.example.quaketodayid.databinding.FragmentDashboardBinding
 import com.example.quaketodayid.databinding.FragmentRatingBinding
 import com.example.quaketodayid.di.VMFactory
 import com.example.quaketodayid.ui.MainViewModel
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import javax.inject.Inject
 
 class DashboardFragment : Fragment() {
 
-    @Inject
-    lateinit var factory: VMFactory
-    private val viewModel: MainViewModel by viewModels {
-        factory
-    }
     private var _binding: FragmentDashboardBinding? = null
 
     private val binding get() = _binding!!
@@ -36,30 +34,25 @@ class DashboardFragment : Fragment() {
         return binding.root
     }
 
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        (context.applicationContext as BaseApp).appComponents.inject(this)
-    }
+
     @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel.getAutoGempa().observe(viewLifecycleOwner, Observer { response->
-            when(response.status){
-                StatusResponse.SUCCESS->{
-                    val data = response.body.infogempa?.gempa!!
-                    with(binding){
-                        lastUpdate.text = "Last update ${data.jam}"
-                        srScale.text = "${data.magnitude}SR"
-                        location.text = data.wilayah
-                        coordinate.text = data.coordinates
-                        feel.text = data.wilayah
-                        dateTime.text= "${data.tanggal}, ${data.jam}"
-                    }
-                }
-                StatusResponse.EMPTY->{}
-                StatusResponse.ERROR->{}
-            }
-        })
+
+
+        val nestedNavHostFragment = childFragmentManager.findFragmentById(R.id.nav_host_fragment_dashboard) as? NavHostFragment
+
+        val navController = nestedNavHostFragment?.navController
+
+        val bottomNavigationView = view.findViewById<BottomNavigationView>(R.id.bottom_nav_view)
+
+        if (navController != null) {
+            bottomNavigationView.setupWithNavController(navController)
+        } else {
+            throw RuntimeException("Controller not found")
+        }
+
+
     }
 
 

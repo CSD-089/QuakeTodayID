@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_terbaru"
+        android:icon="@drawable/ic_terbaru"
+        android:title="Terbaru" />
+    <item
+        android:id="@+id/nav_terkini"
+        android:icon="@drawable/ic_terkini"
+        android:title="Terkini" />
+    <item
+        android:id="@+id/nav_dirasakan"
+        android:icon="@drawable/ic_dirasakan"
+        android:title="Dirasakan" />
+</menu>
