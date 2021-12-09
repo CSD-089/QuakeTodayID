@@ -1,5 +1,6 @@
 package com.example.quaketodayid.di
 
+import com.example.quaketodayid.BuildConfig
 import com.example.quaketodayid.data.network.ApiService
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import dagger.Module
@@ -13,7 +14,7 @@ class AppModule {
 
     @Singleton
     @Provides
-    fun provideRetrofitService(): ApiService = Retrofit.Builder().baseUrl("https://data.bmkg.go.id/DataMKG/TEWS/")
+    fun provideRetrofitService(): ApiService = Retrofit.Builder().baseUrl(BuildConfig.BASE_URL)
         .addConverterFactory(GsonConverterFactory.create())
         .addCallAdapterFactory(CoroutineCallAdapterFactory())
         .build()

@@ -15,21 +15,6 @@ abstract class VMModules {
     @VMKey(MainViewModel::class)
     abstract fun bindMainViewModel(viewModel: MainViewModel): ViewModel
 
-//    @Binds
-//    @IntoMap
-//    @VMKey(ShowViewModel::class)
-//    abstract fun bindTVShowViewModel(viewModel: ShowViewModel): ViewModel
-//
-//    @Binds
-//    @IntoMap
-//    @VMKey(DashboardViewModel::class)
-//    abstract fun bindDashboardViewModel(viewModel: DashboardViewModel): ViewModel
-//
-//    @Binds
-//    @IntoMap
-//    @VMKey(FavouriteViewModel::class)
-//    abstract fun bindFavouriteViewModel(tvShowDetailViewModel: FavouriteViewModel): ViewModel
-
     @Binds
     abstract fun bindViewModelFactory(factory: VMFactory): ViewModelProvider.Factory
 

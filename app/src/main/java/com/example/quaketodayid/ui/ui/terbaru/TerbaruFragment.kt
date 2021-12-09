@@ -9,12 +9,14 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.example.quaketodayid.BaseApp
+import com.example.quaketodayid.BuildConfig
 import com.example.quaketodayid.R
 import com.example.quaketodayid.data.network.StatusResponse
 import com.example.quaketodayid.databinding.FragmentDashboardBinding
 import com.example.quaketodayid.databinding.FragmentTerbaruBinding
 import com.example.quaketodayid.di.VMFactory
 import com.example.quaketodayid.ui.MainViewModel
+import com.example.quaketodayid.utils.loadUrl
 import javax.inject.Inject
 
 
@@ -48,8 +50,9 @@ class TerbaruFragment : Fragment() {
                         srScale.text = "${data.magnitude}SR"
                         location.text = data.wilayah
                         coordinate.text = data.coordinates
-                        feel.text = data.wilayah
+                        potency.text = data.potensi
                         dateTime.text = "${data.tanggal}, ${data.jam}"
+                        shakemap.loadUrl(BuildConfig.BASE_URL+data.shakemap)
                     }
                 }
                 StatusResponse.EMPTY -> {

@@ -14,8 +14,14 @@ data class NewestGempaResponse(
 @Parcelize
 data class GempaItem(
 
+	@field:SerializedName("Dirasakan")
+	val dirasakan: String? = null,
+
 	@field:SerializedName("Wilayah")
 	val wilayah: String? = null,
+
+	@field:SerializedName("Shakemap")
+	val shakemap: String? = null,
 
 	@field:SerializedName("Kedalaman")
 	val kedalaman: String? = null,
@@ -49,7 +55,7 @@ data class GempaItem(
 data class Infogempa(
 
 	@field:SerializedName("gempa")
-	val gempa: List<GempaItem?>? = null
+	val gempa: List<GempaItem>? = null
 ) : Parcelable
 
 @Parcelize
