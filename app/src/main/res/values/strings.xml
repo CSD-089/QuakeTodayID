@@ -17,6 +17,33 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="dashboard">Dashboard</string>
-    <string name="last_update">Last Update ...</string>
+    <string name="last_update">Last Update …</string>
     <string name="_0_0_sr">0.0 SR</string>
+
+    <string-array name="pref_themes_label">
+        <item>@string/pref_theme_label_auto</item>
+        <item>@string/pref_theme_label_dark</item>
+        <item>@string/pref_theme_label_light</item>
+    </string-array>
+
+    <string-array name="pref_themes_entry">
+        <item>@string/pref_theme_entry_auto</item>
+        <item>@string/pref_theme_entry_dark</item>
+        <item>@string/pref_theme_entry_light</item>
+    </string-array>
+
+    <string name="pref_theme_label_auto">Otomatis</string>
+    <string name="pref_theme_label_dark">Gelap</string>
+    <string name="pref_theme_label_light">Terang</string>
+
+    <string name="pref_theme_entry_auto">THEME_AUTOMATIC</string>
+    <string name="pref_theme_entry_dark">THEME_DARK</string>
+    <string name="pref_theme_entry_light">THEME_LIGHT</string>
+    <string name="pref_key_theme">pref_key_theme</string>
+    <string name="pref_key_notification">pref_key_notification</string>
+    <string name="pref_notification_summary">Jika pengaturan ini diaktifkan, maka Anda akan mendapatkan notifikasi terkait gempa terkini</string>
+    <string name="pref_notification_title">Aktifkan Notifikasi</string>
+    <string name="pref_notification_group_title">Notifikasi</string>
+    <string name="pref_display_group_title">Tampilan</string>
+    <string name="pref_theme_title">Tema</string>
 </resources>
