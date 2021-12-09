@@ -1,6 +1,7 @@
 package com.example.quaketodayid.di
 
 import android.content.Context
+import com.example.quaketodayid.ui.detail.DetailGempaActivity
 import com.example.quaketodayid.ui.ui.dashboard.DashboardFragment
 import com.example.quaketodayid.ui.ui.dirasakan.DirasakanFragment
 import com.example.quaketodayid.ui.ui.rating.RatingFragment
@@ -28,8 +29,6 @@ interface AppComponents {
     fun inject(fragment: TerbaruFragment)
     fun inject(fragment: TerkiniFragment)
     fun inject(fragment: DirasakanFragment)
-//    fun inject(activity: ShowDetailActivity)
-//    fun inject(fragment: FavouriteMovieFragment)
-//    fun inject(fragment: FavouriteTvShowFragment)
+    fun inject(fragment: DetailGempaActivity)
 
 }

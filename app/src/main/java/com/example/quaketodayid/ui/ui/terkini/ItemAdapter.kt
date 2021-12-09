@@ -1,5 +1,6 @@
 package com.example.quaketodayid.ui.ui.terkini
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.quaketodayid.R
 import com.example.quaketodayid.data.model.GempaItem
 import com.example.quaketodayid.databinding.GempaItemBinding
+import com.example.quaketodayid.ui.detail.DetailGempaActivity
 import com.example.quaketodayid.utils.toGreen
 import com.example.quaketodayid.utils.toRed
 import com.example.quaketodayid.utils.toYellow
@@ -18,7 +20,7 @@ class ItemAdapter(private val data: List<GempaItem>) :
         fun bind(entity: GempaItem) {
             val magnitude = entity.magnitude?.toDouble()
             binding.cardView.toGreen()
-            with(binding){
+            with(binding) {
                 itemTime.text = "${entity.tanggal}, ${entity.jam}"
                 itemLocation.text = entity.wilayah
                 itemMagnitude.text = "${entity.magnitude}SR"
@@ -35,6 +37,11 @@ class ItemAdapter(private val data: List<GempaItem>) :
                         }
                     }
                 }
+            }
+            itemView.setOnClickListener {
+                val intent = Intent(itemView.context,DetailGempaActivity::class.java)
+                intent.putExtra("data",entity)
+                itemView.context.startActivity(intent)
             }
         }
     }
