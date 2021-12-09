@@ -8,6 +8,6 @@ import kotlinx.android.parcel.Parcelize
 data class GempaDirasakan(
 
 	@field:SerializedName("Infogempa")
-	val infogempa: List<Infogempa> ? = null
+	val infogempa: Infogempa ? = null
 ) : Parcelable
 
