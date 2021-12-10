@@ -5,7 +5,7 @@ Ini adalah aplikasi berbasis android untuk mendapatkan informasi mengenai gempa 
 
 # Atribusi
 Proyek ini menggunakan beberapa _library_ sebagai berikut:
-- Dagger2
+- Dagger Hilt
 - Lottie
 - Espresso
 - Retrofit
