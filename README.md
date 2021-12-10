@@ -1,5 +1,5 @@
 # QuakeTodayID
-Status: [![CSD-089](https://circleci.com/gh/CSD-089/QuakeTodayID.svg?style=svg)](https://circleci.com/gh/CSD-089/QuakeTodayID)
+Status: [![CSD-089](https://circleci.com/gh/CSD-089/QuakeTodayID.svg?style=shield)](https://circleci.com/gh/CSD-089/QuakeTodayID)
 
 Ini adalah aplikasi berbasis android untuk mendapatkan informasi mengenai gempa bumi yang telah terjadi untuk Capstone Project Team CSD-089 Dicoding X Kampus Merdeka
 
