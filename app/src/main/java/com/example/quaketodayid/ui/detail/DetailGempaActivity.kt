@@ -1,17 +1,11 @@
 package com.example.quaketodayid.ui.detail
 
 import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.activity.viewModels
-import androidx.fragment.app.viewModels
-import com.example.quaketodayid.BaseApp
+import androidx.appcompat.app.AppCompatActivity
 import com.example.quaketodayid.R
 import com.example.quaketodayid.data.model.GempaItem
 import com.example.quaketodayid.databinding.ActivityDetailGempaBinding
-import com.example.quaketodayid.di.VMFactory
-import com.example.quaketodayid.ui.MainViewModel
-
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -19,8 +13,9 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.CircleOptions
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import javax.inject.Inject
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class DetailGempaActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
@@ -29,7 +24,6 @@ class DetailGempaActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var data: GempaItem
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        (application as BaseApp).appComponents.inject(this)
         super.onCreate(savedInstanceState)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)

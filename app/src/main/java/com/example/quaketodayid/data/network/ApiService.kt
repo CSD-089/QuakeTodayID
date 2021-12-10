@@ -12,6 +12,9 @@ interface ApiService {
     @GET("autogempa.json")
     fun getAutoGempa(): Deferred<AutoGempaResponse>
 
+    @GET("autogempa.json")
+    fun getAutoGempaSync(): AutoGempaResponse
+
     @GET("gempaterkini.json")
     fun getNewestGempa(): Deferred<NewestGempaResponse>
 

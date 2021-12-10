@@ -1,22 +1,22 @@
 package com.example.quaketodayid.di
 
-import com.example.quaketodayid.BuildConfig
-import com.example.quaketodayid.data.network.ApiService
-import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
+import android.app.Application
+import android.content.Context
+import com.example.quaketodayid.worker.NotificationPreference
 import dagger.Module
 import dagger.Provides
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
-import javax.inject.Singleton
+import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
+import dagger.hilt.components.SingletonComponent
 
 @Module
+@InstallIn(SingletonComponent::class)
 class AppModule {
 
-    @Singleton
     @Provides
-    fun provideRetrofitService(): ApiService = Retrofit.Builder().baseUrl(BuildConfig.BASE_URL)
-        .addConverterFactory(GsonConverterFactory.create())
-        .addCallAdapterFactory(CoroutineCallAdapterFactory())
-        .build()
-        .create(ApiService::class.java)
+    fun provideNotificationPreference(@ApplicationContext context: Context): NotificationPreference =
+        NotificationPreference(
+            (context.applicationContext as Application)
+        ).initComponents()
+
 }

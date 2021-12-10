@@ -1,11 +1,20 @@
 package com.example.quaketodayid
 
 import android.app.Application
-import com.example.quaketodayid.di.AppComponents
-import com.example.quaketodayid.di.DaggerAppComponents
+import androidx.hilt.work.HiltWorkerFactory
+import androidx.work.Configuration
+import dagger.hilt.android.HiltAndroidApp
+import javax.inject.Inject
 
-class BaseApp :Application() {
-    val appComponents : AppComponents by lazy {
-        DaggerAppComponents.factory().create(applicationContext)
-    }
+@HiltAndroidApp
+class BaseApp : Application(), Configuration.Provider {
+
+    @Inject
+    lateinit var workerFactory: HiltWorkerFactory
+
+    override fun getWorkManagerConfiguration() =
+        Configuration.Builder()
+            .setWorkerFactory(workerFactory)
+            .build()
+
 }

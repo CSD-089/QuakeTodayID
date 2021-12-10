@@ -7,8 +7,10 @@ import com.example.quaketodayid.data.model.GempaDirasakan
 import com.example.quaketodayid.data.model.NewestGempaResponse
 import com.example.quaketodayid.data.network.ApiResponse
 import com.example.quaketodayid.data.network.NetworkRepository
+import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
+@HiltViewModel
 class MainViewModel @Inject constructor(private val networkRepository: NetworkRepository) :
     ViewModel() {
 

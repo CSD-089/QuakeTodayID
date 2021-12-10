@@ -9,19 +9,14 @@ import com.example.quaketodayid.databinding.FragmentShareBinding
 
 class ShareFragment : Fragment() {
     private var _binding: FragmentShareBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-
+    ): View {
         _binding = FragmentShareBinding.inflate(inflater, container, false)
-
         return binding.root
     }
 

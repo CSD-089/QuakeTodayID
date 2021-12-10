@@ -1,32 +1,23 @@
 package com.example.quaketodayid.ui.ui.terbaru
 
-import android.content.Context
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import com.example.quaketodayid.BaseApp
 import com.example.quaketodayid.BuildConfig
-import com.example.quaketodayid.R
 import com.example.quaketodayid.data.network.StatusResponse
-import com.example.quaketodayid.databinding.FragmentDashboardBinding
 import com.example.quaketodayid.databinding.FragmentTerbaruBinding
-import com.example.quaketodayid.di.VMFactory
 import com.example.quaketodayid.ui.MainViewModel
 import com.example.quaketodayid.utils.loadUrl
-import javax.inject.Inject
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class TerbaruFragment : Fragment() {
 
-    @Inject
-    lateinit var factory: VMFactory
-    private val viewModel: MainViewModel by viewModels {
-        factory
-    }
+    private val viewModel: MainViewModel by viewModels()
     private var _binding: FragmentTerbaruBinding? = null
 
     private val binding get() = _binding!!
@@ -34,7 +25,7 @@ class TerbaruFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentTerbaruBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -61,10 +52,6 @@ class TerbaruFragment : Fragment() {
                 }
             }
         })
-    }
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        (context.applicationContext as BaseApp).appComponents.inject(this)
     }
 
 }

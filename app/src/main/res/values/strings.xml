@@ -46,4 +46,16 @@
     <string name="pref_notification_group_title">Notifikasi</string>
     <string name="pref_display_group_title">Tampilan</string>
     <string name="pref_theme_title">Tema</string>
+    <string name="pref_notify_last_date">pref_notify_last_date</string>
+    <string name="pref_notify_last_time">pref_notify_last_time</string>
+    <string name="pref_notify_last_datetime">pref_notify_last_datetime</string>
+    <string name="pref_notify_last_coordinates">pref_notify_last_coordinates</string>
+    <string name="pref_notify_last_lintang">pref_notify_last_lintang</string>
+    <string name="pref_notify_last_bujur">pref_notify_last_bujur</string>
+    <string name="pref_notify_last_magnitude">pref_notify_last_magnitude</string>
+    <string name="pref_notify_last_kedalaman">pref_notify_last_kedalaman</string>
+    <string name="pref_notify_last_wilayah">pref_notify_last_wilayah</string>
+    <string name="pref_notify_last_potensi">pref_notify_last_potensi</string>
+    <string name="pref_notify_last_dirasakan">pref_notify_last_dirasakan</string>
+    <string name="pref_notify_last_shakemap">pref_notify_last_shakemap</string>
 </resources>

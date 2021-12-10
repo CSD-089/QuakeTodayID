@@ -7,9 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.quaketodayid.R
 import com.example.quaketodayid.databinding.FragmentSettingBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class SettingFragment : Fragment() {
-
 
     private var binding: FragmentSettingBinding? = null
 
