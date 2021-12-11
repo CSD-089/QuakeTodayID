@@ -10,14 +10,14 @@ import retrofit2.http.GET
 interface ApiService {
 
     @GET("autogempa.json")
-    fun getAutoGempa(): Deferred<AutoGempaResponse>
+    fun getAutoGempa(): Call<AutoGempaResponse>
 
     @GET("autogempa.json")
     fun getAutoGempaSync(): Call<AutoGempaResponse>
 
     @GET("gempaterkini.json")
-    fun getNewestGempa(): Deferred<NewestGempaResponse>
+    fun getNewestGempa(): Call<NewestGempaResponse>
 
     @GET("gempadirasakan.json")
-    fun getGempaDirasakan(): Deferred<GempaDirasakan>
+    fun getGempaDirasakan(): Call<GempaDirasakan>
 }

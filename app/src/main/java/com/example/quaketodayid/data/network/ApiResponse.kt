@@ -2,21 +2,17 @@ package com.example.quaketodayid.data.network
 
 import androidx.annotation.Nullable
 
-class ApiResponse<T>(
-    val status: StatusResponse, @param:Nullable @field:Nullable
-    val body: T, @param:Nullable @field:Nullable
-    val message: String?
-) {
+class ApiResponse<T>(val status: StatusResponse?, val body: T?, val message: String?) {
     companion object {
-        fun <T> success(@Nullable body: T): ApiResponse<T> {
+        fun <T> success(body: T?): ApiResponse<T> {
             return ApiResponse(StatusResponse.SUCCESS, body, null)
         }
 
-        fun <T> loading(message: String, @Nullable body: T): ApiResponse<T> {
+        fun <T> loading(message: String, body: T?): ApiResponse<T> {
             return ApiResponse(StatusResponse.EMPTY, body, message)
         }
 
-        fun <T> error(message: String, @Nullable body: T): ApiResponse<T> {
+        fun <T> error(message: String, body: T?): ApiResponse<T> {
             return ApiResponse(StatusResponse.ERROR, body, message)
         }
     }

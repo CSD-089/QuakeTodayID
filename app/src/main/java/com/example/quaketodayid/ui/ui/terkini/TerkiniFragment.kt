@@ -34,7 +34,7 @@ class TerkiniFragment : Fragment() {
 
         binding.recyclerView.layoutManager = LinearLayoutManager(context)
 
-        viewModel.getGempaTerbaru().observe(viewLifecycleOwner, Observer{ response ->
+        viewModel.getGempaTerbaru().observe(viewLifecycleOwner, { response ->
             when (response.status) {
                 StatusResponse.SUCCESS -> {
                     val data = response.body.infogempa

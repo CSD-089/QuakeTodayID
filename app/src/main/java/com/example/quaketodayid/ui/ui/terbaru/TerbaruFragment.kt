@@ -32,7 +32,7 @@ class TerbaruFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel.getAutoGempa().observe(viewLifecycleOwner, Observer { response ->
+        viewModel.getAutoGempa().observe(viewLifecycleOwner, { response ->
             when (response.status) {
                 StatusResponse.SUCCESS -> {
                     val data = response.body.infogempa?.gempa!!
