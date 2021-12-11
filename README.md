@@ -13,4 +13,3 @@ Proyek ini menggunakan beberapa _library_ sebagai berikut:
 - Glide
 - TouchImageView
 - Google Maps
-- Kotlin Coroutines
