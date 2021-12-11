@@ -9,7 +9,7 @@ import dagger.hilt.components.SingletonComponent
 
 @Module
 @InstallIn(SingletonComponent::class)
-class RepositoryModule {
+object RepositoryModule {
 
     @Provides
     fun provideNetworkRepository(apiService: ApiService): NetworkRepository =

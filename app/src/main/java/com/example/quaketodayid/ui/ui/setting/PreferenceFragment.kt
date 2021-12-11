@@ -6,7 +6,11 @@ import androidx.preference.ListPreference
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreference
+import androidx.work.PeriodicWorkRequest
+import androidx.work.WorkManager
 import com.example.quaketodayid.R
+import com.example.quaketodayid.worker.NotificationWorker
+import java.util.concurrent.TimeUnit
 
 class PreferenceFragment : PreferenceFragmentCompat() {
 
@@ -29,8 +33,19 @@ class PreferenceFragment : PreferenceFragmentCompat() {
     }
 
     private fun onNotificationPreferenceChange(): Preference.OnPreferenceChangeListener =
-        Preference.OnPreferenceChangeListener { preference, newValue ->
-            // TODO: Not yet implemented
+        Preference.OnPreferenceChangeListener { _, newValue ->
+            val workManager = WorkManager.getInstance(requireContext())
+            val periodicWorkRequest = PeriodicWorkRequest.Builder(
+                NotificationWorker::class.java,
+                3,
+                TimeUnit.MINUTES
+            ).build()
+
+            if (newValue.equals(true)) {
+                workManager.enqueue(periodicWorkRequest)
+            } else {
+                workManager.cancelAllWork()
+            }
             true
         }
 

@@ -58,4 +58,7 @@
     <string name="pref_notify_last_potensi">pref_notify_last_potensi</string>
     <string name="pref_notify_last_dirasakan">pref_notify_last_dirasakan</string>
     <string name="pref_notify_last_shakemap">pref_notify_last_shakemap</string>
+
+    <string name="notify_title">Informasi Gempa Bumi pada tanggal %s</string>
+    <string name="notify_content">Gempa bumi berkekuatan %s SR telah terjadi pada %s %s dengan kedalaman %s. %s. %s</string>
 </resources>
