@@ -44,7 +44,7 @@ import dagger.assisted.AssistedInject
 
         when (api.status) {
             StatusResponse.SUCCESS -> {
-                if (api.body.tanggal != local.tanggal && local.tanggal != null && api.body.tanggal != null) {
+                if (api.body?.tanggal != local.tanggal && local.tanggal != null && api.body?.tanggal != null) {
                     showNotification(api.body)
                     notificationPreference.initComponents().setLastInfo(api.body)
                 }
@@ -58,6 +58,7 @@ import dagger.assisted.AssistedInject
                 Log.d("NotificationWorker", "Empty data received")
                 return Result.success()
             }
+            else -> return Result.failure()
         }
     }
 

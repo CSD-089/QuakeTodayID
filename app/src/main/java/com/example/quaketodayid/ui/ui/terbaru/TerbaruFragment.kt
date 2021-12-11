@@ -35,7 +35,7 @@ class TerbaruFragment : Fragment() {
         viewModel.getAutoGempa().observe(viewLifecycleOwner, { response ->
             when (response.status) {
                 StatusResponse.SUCCESS -> {
-                    val data = response.body.infogempa?.gempa!!
+                    val data = response.body?.infogempa?.gempa!!
                     with(binding) {
                         lastUpdate.text = "Last update ${data.jam}"
                         srScale.text = "${data.magnitude}SR"
