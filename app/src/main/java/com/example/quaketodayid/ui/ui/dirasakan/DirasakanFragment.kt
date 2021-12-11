@@ -37,7 +37,7 @@ class DirasakanFragment : Fragment() {
         viewModel.getGempaDirasakan().observe(viewLifecycleOwner, { response ->
             when (response.status) {
                 StatusResponse.SUCCESS -> {
-                    val data = response.body.infogempa
+                    val data = response.body?.infogempa
                     adapter = ItemAdapter(data?.gempa!!)
                     binding.recyclerView.adapter = adapter
                 }
