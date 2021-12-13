@@ -12,4 +12,4 @@ Proyek ini menggunakan beberapa _library_ sebagai berikut:
 - Room
 - Glide
 - TouchImageView
-- Google Maps
+- MapBox
