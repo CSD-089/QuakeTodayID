@@ -24,7 +24,16 @@
             app:defaultValue="@string/pref_theme_entry_auto"
             app:entryValues="@array/pref_themes_entry"
             app:entries="@array/pref_themes_label"
-            app:useSimpleSummaryProvider="true"/>
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:title="@string/pref_map_style_title"
+            app:key="@string/pref_key_map_style"
+            app:icon="@drawable/ic_baseline_map_24"
+            app:defaultValue="@string/pref_map_entry_streets"
+            app:entryValues="@array/pref_map_entry"
+            app:entries="@array/pref_map_label"
+            app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>
 </PreferenceScreen>

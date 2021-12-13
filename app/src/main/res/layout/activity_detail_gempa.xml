@@ -1,72 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:map="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <fragment
-        android:id="@+id/map"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        map:layout_constraintBottom_toTopOf="@+id/constraintLayout"
-        map:layout_constraintTop_toTopOf="parent"
-        tools:context=".ui.detail.DetailGempaActivity" />
+        android:layout_height="match_parent"
+        app:mapbox_cameraTargetLat="0"
+        app:mapbox_cameraTargetLng="118"
+        app:mapbox_cameraZoom="2.6"/>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="match_parent"
-        android:background="#31000000"
-        android:layout_height="200dp"
-        map:layout_constraintBottom_toBottomOf="parent"
-        map:layout_constraintEnd_toEndOf="parent"
-        map:layout_constraintStart_toStartOf="parent" >
+    <include
+        android:id="@+id/content_details"
+        layout="@layout/content_bottom_details" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:text="Magnitudo"
-            android:textSize="20sp"
-            map:layout_constraintBottom_toBottomOf="parent"
-            map:layout_constraintStart_toStartOf="parent"
-            map:layout_constraintTop_toTopOf="parent"
-            map:layout_constraintVertical_bias="0.350" />
-
-        <TextView
-            android:id="@+id/magnitude"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0.0"
-            android:textSize="40sp"
-            android:textStyle="bold"
-            map:layout_constraintEnd_toEndOf="@+id/textView"
-            map:layout_constraintStart_toStartOf="@+id/textView"
-            map:layout_constraintTop_toBottomOf="@+id/textView" />
-
-        <TextView
-            android:id="@+id/location"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="50sp"
-            map:layout_constraintEnd_toEndOf="parent"
-            map:layout_constraintStart_toEndOf="@+id/textView"
-            map:layout_constraintTop_toTopOf="parent"
-            map:drawableLeftCompat="@drawable/ic_baseline_location_on_24" />
-
-        <TextView
-            android:id="@+id/time"
-            android:layout_width="0dp"
-            android:layout_marginTop="30sp"
-            android:layout_height="wrap_content"
-            map:drawableLeftCompat="@drawable/ic_baseline_calendar_today_24"
-            map:layout_constraintEnd_toEndOf="parent"
-            map:layout_constraintStart_toStartOf="@+id/location"
-            map:layout_constraintTop_toBottomOf="@+id/location" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

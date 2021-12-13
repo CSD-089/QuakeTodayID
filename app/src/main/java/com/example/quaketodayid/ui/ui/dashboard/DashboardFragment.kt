@@ -5,8 +5,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.example.quaketodayid.R
 import com.example.quaketodayid.databinding.FragmentDashboardBinding
@@ -33,10 +35,9 @@ class DashboardFragment : Fragment() {
 
         val nestedNavHostFragment = childFragmentManager.findFragmentById(R.id.nav_host_fragment_dashboard) as? NavHostFragment
         val navController = nestedNavHostFragment?.navController
-        val bottomNavigationView = view.findViewById<BottomNavigationView>(R.id.bottom_nav_view)
 
         if (navController != null) {
-            bottomNavigationView.setupWithNavController(navController)
+            binding.bottomNavView.setupWithNavController(navController)
         } else {
             throw RuntimeException("Controller not found")
         }

@@ -1,4 +1,6 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="mapbox_access_token" tools:ignore="Typos">pk.eyJ1IjoiZHdpY2hhbjA5MDUiLCJhIjoiY2tqbjN0a2RpMmdxczJzbXBoMG9haHI4MiJ9.A9igjnT72OExzHRQw5ov8Q</string>
+
     <string name="app_name">Quake Today ID</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -14,8 +16,6 @@
     <string name="rate_amp_review"><![CDATA[Rate & Review]]></string>
     <string name="settings">Settings</string>
     <string name="share">Share</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="dashboard">Dashboard</string>
     <string name="last_update">Last Update …</string>
     <string name="_0_0_sr">0.0 SR</string>
@@ -32,6 +32,28 @@
         <item>@string/pref_theme_entry_light</item>
     </string-array>
 
+    <string-array name="pref_map_label">
+        <item>@string/pref_map_label_streets</item>
+        <item>@string/pref_map_label_outdoors</item>
+        <item>@string/pref_map_label_satellite</item>
+        <item>@string/pref_map_label_satellite_streets</item>
+        <item>@string/pref_map_label_light</item>
+        <item>@string/pref_map_label_dark</item>
+        <item>@string/pref_map_label_traffic_day</item>
+        <item>@string/pref_map_label_traffic_night</item>
+    </string-array>
+
+    <string-array name="pref_map_entry">
+        <item>@string/pref_map_entry_streets</item>
+        <item>@string/pref_map_entry_outdoors</item>
+        <item>@string/pref_map_entry_satellite</item>
+        <item>@string/pref_map_entry_satellite_streets</item>
+        <item>@string/pref_map_entry_light</item>
+        <item>@string/pref_map_entry_dark</item>
+        <item>@string/pref_map_entry_traffic_day</item>
+        <item>@string/pref_map_entry_traffic_night</item>
+    </string-array>
+
     <string name="pref_theme_label_auto">Otomatis</string>
     <string name="pref_theme_label_dark">Gelap</string>
     <string name="pref_theme_label_light">Terang</string>
@@ -39,13 +61,34 @@
     <string name="pref_theme_entry_auto">THEME_AUTOMATIC</string>
     <string name="pref_theme_entry_dark">THEME_DARK</string>
     <string name="pref_theme_entry_light">THEME_LIGHT</string>
+
+    <string name="pref_map_label_streets">Streets</string>
+    <string name="pref_map_label_outdoors">Outdoors</string>
+    <string name="pref_map_label_satellite">Satellite</string>
+    <string name="pref_map_label_satellite_streets">Satellite Streets</string>
+    <string name="pref_map_label_light">Light</string>
+    <string name="pref_map_label_dark">Dark</string>
+    <string name="pref_map_label_traffic_day">Traffic Day</string>
+    <string name="pref_map_label_traffic_night">Traffic Night</string>
+    
+    <string name="pref_map_entry_streets">MAPBOX_STREETS</string>
+    <string name="pref_map_entry_outdoors">OUTDOORS</string>
+    <string name="pref_map_entry_satellite">SATELLITE</string>
+    <string name="pref_map_entry_satellite_streets">SATELLITE_STREETS</string>
+    <string name="pref_map_entry_light">LIGHT</string>
+    <string name="pref_map_entry_dark">DARK</string>
+    <string name="pref_map_entry_traffic_day">TRAFFIC_DAY</string>
+    <string name="pref_map_entry_traffic_night">TRAFFIC_NIGHT</string>
+    
     <string name="pref_key_theme">pref_key_theme</string>
     <string name="pref_key_notification">pref_key_notification</string>
+    <string name="pref_key_map_style">pref_key_map_style</string>
     <string name="pref_notification_summary">Jika pengaturan ini diaktifkan, maka Anda akan mendapatkan notifikasi terkait gempa terkini</string>
     <string name="pref_notification_title">Aktifkan Notifikasi</string>
     <string name="pref_notification_group_title">Notifikasi</string>
     <string name="pref_display_group_title">Tampilan</string>
     <string name="pref_theme_title">Tema</string>
+
     <string name="pref_notify_last_date">pref_notify_last_date</string>
     <string name="pref_notify_last_time">pref_notify_last_time</string>
     <string name="pref_notify_last_datetime">pref_notify_last_datetime</string>
@@ -63,6 +106,7 @@
     <string name="notify_content">Gempa bumi berkekuatan %s SR telah terjadi pada %s %s dengan kedalaman %s. %s. %s</string>
     <string name="about">About</string>
     <string name="info_aplikasi">Info Aplikasi</string>
-    <string name="ini_adalah_aplikasi_berbasis_android_untuk_mendapatkan_informasi_mengenai_gempa_bumi_yang_telah_terjadi_untuk_capstone_project_team_csd_089_dicoding_x_kampus_merdeka">Ini adalah aplikasi berbasis android untuk mendapatkan informasi mengenai gempa bumi yang telah terjadi untuk Capstone Project Team CSD-089 Dicoding X Kampus Merdeka</string>
+    <string name="about_details">Ini adalah aplikasi berbasis android untuk mendapatkan informasi mengenai gempa bumi yang telah terjadi untuk Capstone Project Team CSD-089 Dicoding X Kampus Merdeka</string>
     <string name="contributors">Contributors</string>
+    <string name="pref_map_style_title">Gaya Map</string>
 </resources>
