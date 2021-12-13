@@ -61,4 +61,8 @@
 
     <string name="notify_title">Informasi Gempa Bumi pada tanggal %s</string>
     <string name="notify_content">Gempa bumi berkekuatan %s SR telah terjadi pada %s %s dengan kedalaman %s. %s. %s</string>
+    <string name="about">About</string>
+    <string name="info_aplikasi">Info Aplikasi</string>
+    <string name="ini_adalah_aplikasi_berbasis_android_untuk_mendapatkan_informasi_mengenai_gempa_bumi_yang_telah_terjadi_untuk_capstone_project_team_csd_089_dicoding_x_kampus_merdeka">Ini adalah aplikasi berbasis android untuk mendapatkan informasi mengenai gempa bumi yang telah terjadi untuk Capstone Project Team CSD-089 Dicoding X Kampus Merdeka</string>
+    <string name="contributors">Contributors</string>
 </resources>

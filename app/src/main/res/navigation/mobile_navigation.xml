@@ -16,14 +16,11 @@
         tools:layout="@layout/fragment_setting" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.quaketodayid.ui.ui.rating.RatingFragment"
-        android:label="@string/rate_amp_review"
-        tools:layout="@layout/fragment_rating" />
+        android:id="@+id/nav_about"
+        android:name="com.example.quaketodayid.ui.ui.rating.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
 
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.quaketodayid.ui.ui.share.ShareFragment"
-        android:label="@string/share"
-        tools:layout="@layout/fragment_share" />
+    <action android:id="@+id/action_global_setting"
+        app:destination="@id/nav_home"/>
 </navigation>

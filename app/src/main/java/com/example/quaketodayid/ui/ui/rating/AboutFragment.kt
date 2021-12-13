@@ -6,15 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.example.quaketodayid.databinding.FragmentRatingBinding
+import com.example.quaketodayid.databinding.FragmentAboutBinding
 import com.example.quaketodayid.ui.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class RatingFragment : Fragment() {
+class AboutFragment : Fragment() {
 
-    private val viewModel: MainViewModel by viewModels()
-    private var _binding: FragmentRatingBinding? = null
+    private var _binding: FragmentAboutBinding? = null
 
     private val binding get() = _binding!!
 
@@ -23,16 +22,10 @@ class RatingFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentRatingBinding.inflate(inflater, container, false)
+        _binding = FragmentAboutBinding.inflate(inflater, container, false)
         return binding.root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        viewModel.getAutoGempa().observe(viewLifecycleOwner, { movie ->
-            binding.textGallery.text = movie.body.toString()
-        })
-    }
 
     override fun onDestroyView() {
         super.onDestroyView()
