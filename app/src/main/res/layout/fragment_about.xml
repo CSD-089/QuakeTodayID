@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:padding="10dp"
     android:layout_height="match_parent"
-    tools:context=".ui.main.rating.AboutFragment">
+    tools:context=".ui.main.about.AboutFragment">
 
     <TextView
         android:id="@+id/textView2"

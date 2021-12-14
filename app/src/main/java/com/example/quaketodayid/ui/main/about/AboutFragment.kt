@@ -1,4 +1,4 @@
-package com.example.quaketodayid.ui.main.rating
+package com.example.quaketodayid.ui.main.about
 
 import android.os.Bundle
 import android.view.LayoutInflater
