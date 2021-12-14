@@ -13,3 +13,6 @@ Proyek ini menggunakan beberapa _library_ sebagai berikut:
 - Glide
 - TouchImageView
 - MapBox
+
+# Sumber data
+- Badan Meteorologi, Klimatologi, dan Geofisika - [Tautan](https://bmkg.go.id)
