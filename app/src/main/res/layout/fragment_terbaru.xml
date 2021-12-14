@@ -113,11 +113,11 @@
             android:id="@+id/tv_new_label_feels"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" Dirasakan"
+            android:text=" Dirasakan di daerah"
             android:textColor="?android:textColorPrimary"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:drawableLeftCompat="@drawable/ic_baseline_my_location_24"
+            app:drawableLeftCompat="@drawable/ic_baseline_info_24"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_new_datetime" />
 
