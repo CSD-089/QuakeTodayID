@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -18,7 +19,6 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#31000000"
             android:padding="8dp">
 
             <TextView
@@ -29,41 +29,41 @@
                 android:textAlignment="center"
                 android:textSize="12sp"
                 app:layout_constraintBottom_toTopOf="@+id/tv_details_magnitude"
+                app:layout_constraintEnd_toEndOf="@+id/tv_details_magnitude"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
                 android:id="@+id/tv_details_magnitude"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5.3"
+                android:text="5.3SR"
                 android:textColor="?android:textColorPrimary"
                 android:textSize="32sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/textView"
-                app:layout_constraintStart_toStartOf="@+id/textView"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.6" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tv_label_date_time"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:text="Tanggal dan Waktu"
-                android:textSize="18sp"
-                android:textStyle="bold"
+                android:text=" Tanggal dan Waktu"
                 android:textColor="?android:textColorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 app:drawableLeftCompat="@drawable/ic_baseline_access_time_24"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/textView"
+                app:layout_constraintStart_toEndOf="@+id/tv_details_magnitude"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tv_details_date_time"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
+                android:layout_marginStart="28dp"
+                android:textSize="16sp"
                 android:text="13 Des 2021 12:46:56 WIB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView"
@@ -76,20 +76,21 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:text="Lokasi Pusat Gempa"
-                android:textSize="18sp"
-                android:textStyle="bold"
+                android:text=" Lokasi Pusat Gempa"
                 android:textColor="?android:textColorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 app:drawableLeftCompat="@drawable/ic_baseline_location_on_24"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/textView"
+                app:layout_constraintStart_toEndOf="@+id/tv_details_magnitude"
                 app:layout_constraintTop_toBottomOf="@id/tv_details_date_time" />
 
             <TextView
                 android:id="@+id/tv_details_location"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
+                android:layout_marginStart="28dp"
+                android:textSize="16sp"
                 android:text="Pusat gempa berada di laut 179 km Tenggara Jember"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView"
@@ -109,16 +110,15 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#31000000"
             android:padding="8dp">
 
             <TextView
                 android:id="@+id/tv_label_coordinate"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Titik Koordinat"
+                android:text=" Titik Koordinat"
                 android:textColor="?android:textColorPrimary"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:drawableLeftCompat="@drawable/ic_baseline_my_location_24"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +129,8 @@
                 android:id="@+id/tv_details_coordinate"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
+                android:layout_marginStart="28dp"
+                android:textSize="16sp"
                 android:text="9.81 LS, 113.67 BT"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/tv_label_coordinate"
@@ -141,9 +142,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Kedalaman"
+                android:text=" Kedalaman"
                 android:textColor="?android:textColorPrimary"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:drawableLeftCompat="@drawable/ic_baseline_arrow_downward_24"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -154,7 +155,8 @@
                 android:id="@+id/tv_details_depth"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
+                android:layout_marginStart="28dp"
+                android:textSize="16sp"
                 android:text="10 km"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/tv_label_depth"
@@ -175,16 +177,15 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#31000000"
             android:padding="8dp">
 
             <TextView
                 android:id="@+id/tv_label_feel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Dirasakan di daerah"
+                android:text=" Dirasakan di daerah"
                 android:textColor="?android:textColorPrimary"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:drawableLeftCompat="@drawable/ic_baseline_info_24"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -195,7 +196,8 @@
                 android:id="@+id/tv_details_feel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
+                android:layout_marginStart="28dp"
+                android:textSize="16sp"
                 android:text="III Kuta, II Denpasar, II Kuta Utara, II Karangasem, II Pacitan, II Trenggalek, II Lumajang"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/tv_label_feel"
@@ -216,18 +218,17 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#31000000"
             android:padding="8dp">
 
             <TextView
                 android:id="@+id/tv_label_potency"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Potensi"
+                android:text=" Potensi"
                 android:textColor="?android:textColorPrimary"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
-                app:drawableLeftCompat="@drawable/ic_baseline_info_24"
+                app:drawableLeftCompat="@drawable/ic_baseline_graphic_eq_24"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -236,7 +237,8 @@
                 android:id="@+id/tv_details_potency"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
+                android:layout_marginStart="28dp"
+                android:textSize="16sp"
                 android:text="Gempa ini dirasakan untuk diteruskan pada masyarakat"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/tv_label_potency"

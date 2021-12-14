@@ -14,20 +14,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.QuakeTodayID">
+        android:theme="@style/Theme.QuakeTodayID"
+        tools:ignore="AllowBackup">
+        <activity
+            android:name=".ui.shakemap.ShakeMapViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"/>
 
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="${applicationId}.androidx-startup"
-            tools:node="remove">
-        </provider>
+            tools:node="remove" />
 
         <activity
             android:name=".ui.detail.DetailGempaActivity"
             android:exported="false"
-            android:parentActivityName=".ui.main.MainActivity"
-            android:label="Detail Gempa" />
-
+            android:label="Detail Gempa"
+            android:parentActivityName=".ui.main.MainActivity" />
         <activity
             android:name=".ui.main.MainActivity"
             android:exported="true"

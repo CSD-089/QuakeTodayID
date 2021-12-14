@@ -17,7 +17,11 @@ class TerbaruViewModel @Inject constructor(
 
     private val _reloadTrigger = MutableLiveData<Boolean>()
 
-    fun getAutoGempa(): LiveData<ApiResponse<AutoGempaResponse>> =
+    init {
+        reload()
+    }
+
+    val getAutoGempa: LiveData<ApiResponse<AutoGempaResponse>> =
         Transformations.switchMap(_reloadTrigger) {
             networkRepository.getAutoGempa()
         }

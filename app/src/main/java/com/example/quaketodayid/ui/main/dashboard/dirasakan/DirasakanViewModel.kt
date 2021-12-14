@@ -2,6 +2,7 @@ package com.example.quaketodayid.ui.main.dashboard.dirasakan
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import com.example.quaketodayid.data.model.GempaDirasakan
 import com.example.quaketodayid.data.network.ApiResponse
@@ -16,8 +17,14 @@ class DirasakanViewModel @Inject constructor(
 
     private val _reloadTrigger = MutableLiveData<Boolean>()
 
-    fun getGempaDirasakan(): LiveData<ApiResponse<GempaDirasakan>> =
-        networkRepository.getGempaDirasakan()
+    init {
+        reload()
+    }
+
+    val getGempaDirasakan: LiveData<ApiResponse<GempaDirasakan>> =
+        Transformations.switchMap(_reloadTrigger) {
+            networkRepository.getGempaDirasakan()
+        }
 
     fun reload() {
         _reloadTrigger.value = true

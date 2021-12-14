@@ -56,7 +56,8 @@ class DetailGempaActivity : AppCompatActivity() {
                 }
             }
             with (this.contentDetails) {
-                this.tvDetailsMagnitude.text = data.magnitude
+                val magnitude = "${data.magnitude}SR"
+                this.tvDetailsMagnitude.text = magnitude
 
                 val dateTime = "${data.tanggal} ${data.jam}"
                 this.tvDetailsDateTime.text = dateTime
@@ -69,7 +70,11 @@ class DetailGempaActivity : AppCompatActivity() {
                 this.tvDetailsDepth.text = data.kedalaman
 
                 if (data.dirasakan != null) {
-                    this.tvDetailsFeel.text = data.dirasakan
+                    if (data.dirasakan != "-") {
+                        this.tvDetailsFeel.text = data.dirasakan
+                    } else {
+                        this.cardFeel.visibility = View.GONE
+                    }
                 } else {
                     this.cardFeel.visibility = View.GONE
                 }

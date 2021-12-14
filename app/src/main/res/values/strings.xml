@@ -70,7 +70,7 @@
     <string name="pref_map_label_dark">Dark</string>
     <string name="pref_map_label_traffic_day">Traffic Day</string>
     <string name="pref_map_label_traffic_night">Traffic Night</string>
-    
+
     <string name="pref_map_entry_streets">MAPBOX_STREETS</string>
     <string name="pref_map_entry_outdoors">OUTDOORS</string>
     <string name="pref_map_entry_satellite">SATELLITE</string>
@@ -79,7 +79,7 @@
     <string name="pref_map_entry_dark">DARK</string>
     <string name="pref_map_entry_traffic_day">TRAFFIC_DAY</string>
     <string name="pref_map_entry_traffic_night">TRAFFIC_NIGHT</string>
-    
+
     <string name="pref_key_theme">pref_key_theme</string>
     <string name="pref_key_notification">pref_key_notification</string>
     <string name="pref_key_map_style">pref_key_map_style</string>
