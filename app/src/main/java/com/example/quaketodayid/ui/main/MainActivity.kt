@@ -1,4 +1,4 @@
-package com.example.quaketodayid.ui
+package com.example.quaketodayid.ui.main
 
 import android.os.Bundle
 import android.view.Menu
@@ -13,20 +13,20 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import com.example.quaketodayid.R
-import com.example.quaketodayid.databinding.ActivityDashboardBinding
+import com.example.quaketodayid.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class DashboardActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
-    private lateinit var binding: ActivityDashboardBinding
+    private lateinit var binding: ActivityMainBinding
     private lateinit var navController : NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityDashboardBinding.inflate(layoutInflater)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setSupportActionBar(binding.appBarDashboard.toolbar)

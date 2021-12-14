@@ -1,4 +1,4 @@
-package com.example.quaketodayid.ui.ui.setting
+package com.example.quaketodayid.ui.main.setting
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatDelegate

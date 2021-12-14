@@ -1,4 +1,4 @@
-package com.example.quaketodayid.ui.ui.terbaru
+package com.example.quaketodayid.ui.main.dashboard.terbaru
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,12 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.Observer
-import com.example.quaketodayid.BuildConfig
 import com.example.quaketodayid.data.network.StatusResponse
 import com.example.quaketodayid.databinding.FragmentTerbaruBinding
-import com.example.quaketodayid.ui.MainViewModel
-import com.example.quaketodayid.utils.loadUrl
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

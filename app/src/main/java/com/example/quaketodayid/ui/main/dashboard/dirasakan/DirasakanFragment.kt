@@ -1,4 +1,4 @@
-package com.example.quaketodayid.ui.ui.dirasakan
+package com.example.quaketodayid.ui.main.dashboard.dirasakan
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,8 +9,7 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.quaketodayid.data.network.StatusResponse
 import com.example.quaketodayid.databinding.FragmentDirasakanBinding
-import com.example.quaketodayid.ui.MainViewModel
-import com.example.quaketodayid.ui.ui.ItemAdapter
+import com.example.quaketodayid.ui.main.ItemAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

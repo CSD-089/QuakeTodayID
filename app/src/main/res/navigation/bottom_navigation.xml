@@ -7,16 +7,16 @@
 
     <fragment
         android:id="@+id/nav_terbaru"
-        android:name="com.example.quaketodayid.ui.ui.terbaru.TerbaruFragment"
+        android:name="com.example.quaketodayid.ui.main.dashboard.terbaru.TerbaruFragment"
         tools:layout="@layout/fragment_terbaru" />
     <fragment
         android:id="@+id/nav_terkini"
-        android:name="com.example.quaketodayid.ui.ui.terkini.TerkiniFragment"
+        android:name="com.example.quaketodayid.ui.main.dashboard.terkini.TerkiniFragment"
         tools:layout="@layout/fragment_terkini" />
 
     <fragment
         android:id="@+id/nav_dirasakan"
-        android:name="com.example.quaketodayid.ui.ui.dirasakan.DirasakanFragment"
+        android:name="com.example.quaketodayid.ui.main.dashboard.dirasakan.DirasakanFragment"
         tools:layout="@layout/fragment_dirasakan" />
 
 </navigation>

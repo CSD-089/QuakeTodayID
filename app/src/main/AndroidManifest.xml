@@ -25,11 +25,11 @@
         <activity
             android:name=".ui.detail.DetailGempaActivity"
             android:exported="false"
-            android:parentActivityName=".ui.DashboardActivity"
+            android:parentActivityName=".ui.main.MainActivity"
             android:label="Detail Gempa" />
 
         <activity
-            android:name=".ui.DashboardActivity"
+            android:name=".ui.main.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.QuakeTodayID.NoActionBar">
             <intent-filter>
@@ -38,9 +38,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
     </application>
 
 </manifest>
