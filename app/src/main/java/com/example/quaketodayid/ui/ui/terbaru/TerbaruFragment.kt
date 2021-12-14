@@ -17,7 +17,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class TerbaruFragment : Fragment() {
 
-    private val viewModel: MainViewModel by viewModels()
+    private val viewModel: TerbaruViewModel by viewModels()
     private var _binding: FragmentTerbaruBinding? = null
 
     private val binding get() = _binding!!

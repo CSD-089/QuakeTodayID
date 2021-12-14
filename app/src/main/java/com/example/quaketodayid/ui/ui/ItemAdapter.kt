@@ -1,4 +1,4 @@
-package com.example.quaketodayid.ui.ui.terkini
+package com.example.quaketodayid.ui.ui
 
 import android.content.Intent
 import android.view.LayoutInflater

@@ -10,13 +10,13 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.quaketodayid.data.network.StatusResponse
 import com.example.quaketodayid.databinding.FragmentDirasakanBinding
 import com.example.quaketodayid.ui.MainViewModel
-import com.example.quaketodayid.ui.ui.terkini.ItemAdapter
+import com.example.quaketodayid.ui.ui.ItemAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class DirasakanFragment : Fragment() {
 
-    private val viewModel: MainViewModel by viewModels()
+    private val viewModel: DirasakanViewModel by viewModels()
 
     private var _binding: FragmentDirasakanBinding? = null
     private val binding get() = _binding!!

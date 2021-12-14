@@ -6,17 +6,17 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.quaketodayid.data.network.StatusResponse
 import com.example.quaketodayid.databinding.FragmentTerkiniBinding
 import com.example.quaketodayid.ui.MainViewModel
+import com.example.quaketodayid.ui.ui.ItemAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class TerkiniFragment : Fragment() {
 
-    private val viewModel: MainViewModel by viewModels()
+    private val viewModel: TerkiniViewModel by viewModels()
     private var _binding: FragmentTerkiniBinding? = null
     private val binding get() = _binding!!
     private lateinit var adapter: ItemAdapter

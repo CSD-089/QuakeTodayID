@@ -31,15 +31,15 @@ class DetailGempaActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityDetailGempaBinding.inflate(layoutInflater)
+        binding.mapView.onCreate(savedInstanceState)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        binding = ActivityDetailGempaBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         data = intent.getParcelableExtra("data")!!
 
         binding.apply {
-            mapView.onCreate(savedInstanceState)
             mapView.getMapAsync { mapboxMap ->
                 this@DetailGempaActivity.mapboxMap = mapboxMap
                 mapboxMap.setStyle(getPreferenceMapStyle()) { style ->
@@ -121,6 +121,11 @@ class DetailGempaActivity : AppCompatActivity() {
             }
         }
         return Style.MAPBOX_STREETS
+    }
+
+    override fun onStart() {
+        super.onStart()
+        binding.mapView.onStart()
     }
 
     override fun onResume() {
