@@ -1,12 +1,7 @@
 package com.example.quaketodayid.utils
 
-import android.content.Context
 import android.graphics.Color
-import android.util.TypedValue
-import androidx.annotation.AttrRes
-import androidx.annotation.ColorInt
 import androidx.cardview.widget.CardView
-import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
 import com.ortiz.touchview.TouchImageView
 
