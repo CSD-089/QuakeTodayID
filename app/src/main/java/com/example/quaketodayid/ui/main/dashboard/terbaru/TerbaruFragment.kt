@@ -13,7 +13,6 @@ import com.example.quaketodayid.data.model.GempaItem
 import com.example.quaketodayid.data.network.StatusResponse
 import com.example.quaketodayid.databinding.FragmentTerbaruBinding
 import com.example.quaketodayid.ui.shakemap.ShakeMapViewActivity
-import com.example.quaketodayid.utils.resolveColorAttr
 import com.example.quaketodayid.utils.toGreen
 import com.example.quaketodayid.utils.toRed
 import com.example.quaketodayid.utils.toYellow
@@ -81,12 +80,14 @@ class TerbaruFragment : Fragment() {
                 tvNewLabelDatetime.visibility = View.INVISIBLE
                 tvNewLabelFeels.visibility = View.INVISIBLE
                 tvNewLabelPotency.visibility = View.INVISIBLE
+                tvNewLabelDepth.visibility = View.INVISIBLE
                 
                 tvNewPotency.visibility = View.INVISIBLE
                 tvNewLocation.visibility = View.INVISIBLE
                 tvNewFeels.visibility = View.INVISIBLE
                 tvNewDatetime.visibility = View.INVISIBLE
                 tvNewLastUpdate.visibility = View.INVISIBLE
+                tvNewDepth.visibility = View.INVISIBLE
                 cardView.visibility = View.INVISIBLE
                 
                 btnShowShakeMap.visibility = View.INVISIBLE
@@ -97,12 +98,14 @@ class TerbaruFragment : Fragment() {
                 tvNewLabelDatetime.visibility = View.VISIBLE
                 tvNewLabelFeels.visibility = View.VISIBLE
                 tvNewLabelPotency.visibility = View.VISIBLE
+                tvNewLabelDepth.visibility = View.VISIBLE
 
                 tvNewPotency.visibility = View.VISIBLE
                 tvNewLocation.visibility = View.VISIBLE
                 tvNewFeels.visibility = View.VISIBLE
                 tvNewDatetime.visibility = View.VISIBLE
                 tvNewLastUpdate.visibility = View.VISIBLE
+                tvNewDepth.visibility = View.VISIBLE
                 cardView.visibility = View.VISIBLE
 
                 btnShowShakeMap.visibility = View.VISIBLE
@@ -140,10 +143,13 @@ class TerbaruFragment : Fragment() {
                     cardView.toRed()
                 }
             }
-            
+
+            tvNewDepth.text = item.kedalaman
+
             tvNewLocation.text = item.wilayah
             val feels = if (item.dirasakan == "-") "Tidak ada laporan" else item.dirasakan
             tvNewFeels.text = feels
+
             tvNewPotency.text = item.potensi
             
             val dateTime = "${item.tanggal} ${item.jam}"
