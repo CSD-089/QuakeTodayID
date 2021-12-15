@@ -47,7 +47,10 @@ class DetailGempaActivity : AppCompatActivity() {
                     symbolManager.iconAllowOverlap = true
                     style.addImage(
                         ICON_ID,
-                        BitmapFactory.decodeResource(resources, R.drawable.mapbox_marker_icon_default)
+                        BitmapFactory.decodeResource(
+                            resources,
+                            R.drawable.mapbox_marker_icon_default
+                        )
                     )
                     setQuakeLocation(
                         Convert.stringToLatLng(data.coordinates ?: "0.0,0.0"),
@@ -55,7 +58,7 @@ class DetailGempaActivity : AppCompatActivity() {
                     )
                 }
             }
-            with (this.contentDetails) {
+            with(this.contentDetails) {
                 val magnitude = "${data.magnitude}SR"
                 this.tvDetailsMagnitude.text = magnitude
 

@@ -49,8 +49,8 @@ class ItemAdapter(private val data: List<GempaItem>) :
                 }
             }
             itemView.setOnClickListener {
-                val intent = Intent(itemView.context,DetailGempaActivity::class.java)
-                intent.putExtra("data",entity)
+                val intent = Intent(itemView.context, DetailGempaActivity::class.java)
+                intent.putExtra("data", entity)
                 itemView.context.startActivity(intent)
             }
         }

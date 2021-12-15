@@ -1,10 +1,9 @@
 package com.example.quaketodayid.ui.shakemap
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
-import com.bumptech.glide.Glide
+import androidx.appcompat.app.AppCompatActivity
 import com.example.quaketodayid.BuildConfig
 import com.example.quaketodayid.databinding.ActivityShakeMapViewBinding
 import com.example.quaketodayid.utils.loadUrl

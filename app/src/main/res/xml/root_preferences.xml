@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
     <PreferenceCategory
-        app:title="@string/pref_notification_group_title"
-        app:iconSpaceReserved="false">
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_notification_group_title">
 
         <SwitchPreference
-            app:title="@string/pref_notification_title"
-            app:key="@string/pref_key_notification"
             app:defaultValue="false"
             app:icon="@drawable/ic_baseline_notifications_24"
-            app:summary="@string/pref_notification_summary" />
+            app:key="@string/pref_key_notification"
+            app:summary="@string/pref_notification_summary"
+            app:title="@string/pref_notification_title" />
 
     </PreferenceCategory>
 
     <PreferenceCategory
-        app:title="@string/pref_display_group_title"
-        app:iconSpaceReserved="false">
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_display_group_title">
 
         <ListPreference
-            app:title="@string/pref_theme_title"
-            app:key="@string/pref_key_theme"
-            app:icon="@drawable/ic_baseline_brightness_medium_24"
             app:defaultValue="@string/pref_theme_entry_auto"
-            app:entryValues="@array/pref_themes_entry"
             app:entries="@array/pref_themes_label"
+            app:entryValues="@array/pref_themes_entry"
+            app:icon="@drawable/ic_baseline_brightness_medium_24"
+            app:key="@string/pref_key_theme"
+            app:title="@string/pref_theme_title"
             app:useSimpleSummaryProvider="true" />
 
         <ListPreference
-            app:title="@string/pref_map_style_title"
-            app:key="@string/pref_key_map_style"
-            app:icon="@drawable/ic_baseline_map_24"
             app:defaultValue="@string/pref_map_entry_streets"
-            app:entryValues="@array/pref_map_entry"
             app:entries="@array/pref_map_label"
+            app:entryValues="@array/pref_map_entry"
+            app:icon="@drawable/ic_baseline_map_24"
+            app:key="@string/pref_key_map_style"
+            app:title="@string/pref_map_style_title"
             app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>

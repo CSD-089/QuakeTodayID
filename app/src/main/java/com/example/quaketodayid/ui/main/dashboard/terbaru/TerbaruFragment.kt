@@ -16,14 +16,19 @@ import com.example.quaketodayid.ui.shakemap.ShakeMapViewActivity
 import com.example.quaketodayid.utils.toGreen
 import com.example.quaketodayid.utils.toRed
 import com.example.quaketodayid.utils.toYellow
+import com.example.quaketodayid.worker.NotificationPreference
 import dagger.hilt.android.AndroidEntryPoint
 import java.text.SimpleDateFormat
 import java.util.*
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class TerbaruFragment : Fragment() {
 
     private val viewModel: TerbaruViewModel by viewModels()
+
+    @Inject
+    lateinit var notificationPreference: NotificationPreference
 
     private var _binding: FragmentTerbaruBinding? = null
     private val binding get() = _binding!!
@@ -51,18 +56,20 @@ class TerbaruFragment : Fragment() {
                     setLoadingState(false)
                     val data = response.body?.infogempa?.gempa!!
                     loadData(data)
+                    notificationPreference.setLastInfo(data)
                 }
                 StatusResponse.EMPTY -> {
                     setLoadingState(false)
-                    loadData(GempaItem())
+                    loadData(notificationPreference.getLastInfo())
                 }
                 StatusResponse.ERROR -> {
                     setLoadingState(false)
                     Toast.makeText(
                         requireContext(),
-                        "An error occurred, Please try again later.",
+                        "An error occurred, Last Quake Data would be shown.",
                         Toast.LENGTH_SHORT
                     ).show()
+                    loadData(notificationPreference.getLastInfo())
                 }
                 else -> {
                     setLoadingState(true)
@@ -70,18 +77,18 @@ class TerbaruFragment : Fragment() {
             }
         })
     }
-    
+
     private fun setLoadingState(state: Boolean) {
         binding.apply {
             if (state) {
                 pbLoading.visibility = View.VISIBLE
-                
+
                 tvNewLabelLocation.visibility = View.INVISIBLE
                 tvNewLabelDatetime.visibility = View.INVISIBLE
                 tvNewLabelFeels.visibility = View.INVISIBLE
                 tvNewLabelPotency.visibility = View.INVISIBLE
                 tvNewLabelDepth.visibility = View.INVISIBLE
-                
+
                 tvNewPotency.visibility = View.INVISIBLE
                 tvNewLocation.visibility = View.INVISIBLE
                 tvNewFeels.visibility = View.INVISIBLE
@@ -89,7 +96,7 @@ class TerbaruFragment : Fragment() {
                 tvNewLastUpdate.visibility = View.INVISIBLE
                 tvNewDepth.visibility = View.INVISIBLE
                 cardView.visibility = View.INVISIBLE
-                
+
                 btnShowShakeMap.visibility = View.INVISIBLE
             } else {
                 pbLoading.visibility = View.GONE
@@ -120,7 +127,7 @@ class TerbaruFragment : Fragment() {
                 .format(currentTimeMillis)
             val lastUpdate = "Pembaruan terakhir: $date"
             tvNewLastUpdate.text = lastUpdate
-            
+
             val magnitude = "${item.magnitude}SR"
             tvNewMagnitude.text = magnitude
             when (item.magnitude?.toDouble()!!) {
@@ -151,7 +158,7 @@ class TerbaruFragment : Fragment() {
             tvNewFeels.text = feels
 
             tvNewPotency.text = item.potensi
-            
+
             val dateTime = "${item.tanggal} ${item.jam}"
             tvNewDatetime.text = dateTime
             btnShowShakeMap.setOnClickListener {

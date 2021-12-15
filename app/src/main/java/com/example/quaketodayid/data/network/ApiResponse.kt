@@ -1,7 +1,5 @@
 package com.example.quaketodayid.data.network
 
-import androidx.annotation.Nullable
-
 class ApiResponse<T>(val status: StatusResponse?, val body: T?, val message: String?) {
     companion object {
         fun <T> success(body: T?): ApiResponse<T> {

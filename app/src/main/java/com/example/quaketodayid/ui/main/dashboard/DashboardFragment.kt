@@ -2,7 +2,6 @@ package com.example.quaketodayid.ui.main.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
@@ -29,7 +28,8 @@ class DashboardFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val nestedNavHostFragment = childFragmentManager.findFragmentById(R.id.nav_host_fragment_dashboard) as? NavHostFragment
+        val nestedNavHostFragment =
+            childFragmentManager.findFragmentById(R.id.nav_host_fragment_dashboard) as? NavHostFragment
         val navController = nestedNavHostFragment?.navController
 
         if (navController != null) {

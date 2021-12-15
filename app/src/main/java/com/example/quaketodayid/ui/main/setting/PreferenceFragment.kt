@@ -23,8 +23,9 @@ class PreferenceFragment : PreferenceFragmentCompat() {
     }
 
     private fun initComponents() {
-        prefNotification = findPreference<SwitchPreference>(getString(R.string.pref_key_notification))
-                as SwitchPreference
+        prefNotification =
+            findPreference<SwitchPreference>(getString(R.string.pref_key_notification))
+                    as SwitchPreference
         prefTheme = findPreference<ListPreference>(getString(R.string.pref_key_theme))
                 as ListPreference
 

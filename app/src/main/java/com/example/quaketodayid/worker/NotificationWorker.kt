@@ -21,7 +21,7 @@ import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 
 @HiltWorker
-    class NotificationWorker @AssistedInject constructor(
+class NotificationWorker @AssistedInject constructor(
     @Assisted context: Context,
     @Assisted params: WorkerParameters,
     private val networkRepository: NetworkRepository,

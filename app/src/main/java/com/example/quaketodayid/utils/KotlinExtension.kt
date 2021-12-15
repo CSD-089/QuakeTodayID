@@ -10,14 +10,14 @@ fun TouchImageView.loadUrl(url: String) {
     Glide.with(this).load(url).into(this)
 }
 
-fun CardView.toGreen(){
+fun CardView.toGreen() {
     this.setCardBackgroundColor(Color.GREEN)
 }
 
-fun CardView.toYellow(){
+fun CardView.toYellow() {
     this.setCardBackgroundColor(Color.YELLOW)
 }
 
-fun CardView.toRed(){
+fun CardView.toRed() {
     this.setCardBackgroundColor(Color.RED)
 }

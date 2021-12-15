@@ -7,7 +7,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class GempaDirasakan(
 
-	@field:SerializedName("Infogempa")
-	val infogempa: Infogempa ? = null
+    @field:SerializedName("Infogempa")
+    val infogempa: Infogempa? = null
 ) : Parcelable
 

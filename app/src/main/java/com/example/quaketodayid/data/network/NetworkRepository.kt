@@ -28,15 +28,22 @@ class NetworkRepository @Inject constructor(private val service: ApiService) {
                     if (body != null) {
                         result.value = ApiResponse.success(body)
                     } else {
-                        result.value = ApiResponse.error("No response from the server", AutoGempaResponse())
+                        result.value =
+                            ApiResponse.error("No response from the server", AutoGempaResponse())
                     }
                 } else {
-                    result.value = ApiResponse.error("An Error reported [${response.code()}]. Please try again later.", AutoGempaResponse())
+                    result.value = ApiResponse.error(
+                        "An Error reported [${response.code()}]. Please try again later.",
+                        AutoGempaResponse()
+                    )
                 }
             }
 
             override fun onFailure(call: Call<AutoGempaResponse>, t: Throwable) {
-                result.value = ApiResponse.error("An Error reported [UNKNOWN]. We will fix it immediately.", AutoGempaResponse())
+                result.value = ApiResponse.error(
+                    "An Error reported [UNKNOWN]. We will fix it immediately.",
+                    AutoGempaResponse()
+                )
             }
         })
         return result
@@ -66,15 +73,22 @@ class NetworkRepository @Inject constructor(private val service: ApiService) {
                     if (body != null) {
                         result.value = ApiResponse.success(body)
                     } else {
-                        result.value = ApiResponse.error("No response from the server", NewestGempaResponse())
+                        result.value =
+                            ApiResponse.error("No response from the server", NewestGempaResponse())
                     }
                 } else {
-                    result.value = ApiResponse.error("An Error reported [${response.code()}]. Please try again later.", NewestGempaResponse())
+                    result.value = ApiResponse.error(
+                        "An Error reported [${response.code()}]. Please try again later.",
+                        NewestGempaResponse()
+                    )
                 }
             }
 
             override fun onFailure(call: Call<NewestGempaResponse>, t: Throwable) {
-                result.value = ApiResponse.error("An Error reported [UNKNOWN]. We will fix it immediately.", NewestGempaResponse())
+                result.value = ApiResponse.error(
+                    "An Error reported [UNKNOWN]. We will fix it immediately.",
+                    NewestGempaResponse()
+                )
             }
         })
         return result
@@ -93,15 +107,22 @@ class NetworkRepository @Inject constructor(private val service: ApiService) {
                     if (body != null) {
                         result.value = ApiResponse.success(body)
                     } else {
-                        result.value = ApiResponse.error("No response from the server", GempaDirasakan())
+                        result.value =
+                            ApiResponse.error("No response from the server", GempaDirasakan())
                     }
                 } else {
-                    result.value = ApiResponse.error("An Error reported [${response.code()}]. Please try again later.", GempaDirasakan())
+                    result.value = ApiResponse.error(
+                        "An Error reported [${response.code()}]. Please try again later.",
+                        GempaDirasakan()
+                    )
                 }
             }
 
             override fun onFailure(call: Call<GempaDirasakan>, t: Throwable) {
-                result.value = ApiResponse.error("An Error reported [UNKNOWN]. We will fix it immediately.", GempaDirasakan())
+                result.value = ApiResponse.error(
+                    "An Error reported [UNKNOWN]. We will fix it immediately.",
+                    GempaDirasakan()
+                )
             }
         })
         return result

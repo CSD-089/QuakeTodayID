@@ -21,6 +21,7 @@
         android:label="@string/about"
         tools:layout="@layout/fragment_about" />
 
-    <action android:id="@+id/action_global_setting"
-        app:destination="@id/nav_home"/>
+    <action
+        android:id="@+id/action_global_setting"
+        app:destination="@id/nav_home" />
 </navigation>

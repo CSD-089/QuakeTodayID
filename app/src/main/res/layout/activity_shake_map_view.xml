@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
     android:background="@color/black"
+    android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
     tools:context=".ui.shakemap.ShakeMapViewActivity">
 
     <com.ortiz.touchview.TouchImageView
@@ -27,8 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="Cubit atau ketuk dua kali untuk perbesar/perkecil gambar"
-        android:textColor="@color/white"
         android:textAlignment="center"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

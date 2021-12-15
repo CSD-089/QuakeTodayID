@@ -19,7 +19,7 @@
         <activity
             android:name=".ui.shakemap.ShakeMapViewActivity"
             android:exported="false"
-            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"/>
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

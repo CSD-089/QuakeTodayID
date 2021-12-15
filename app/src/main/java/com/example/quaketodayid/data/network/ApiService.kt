@@ -3,7 +3,6 @@ package com.example.quaketodayid.data.network
 import com.example.quaketodayid.data.model.AutoGempaResponse
 import com.example.quaketodayid.data.model.GempaDirasakan
 import com.example.quaketodayid.data.model.NewestGempaResponse
-import kotlinx.coroutines.Deferred
 import retrofit2.Call
 import retrofit2.http.GET
 

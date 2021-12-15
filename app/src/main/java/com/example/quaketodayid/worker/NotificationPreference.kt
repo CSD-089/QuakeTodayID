@@ -10,7 +10,7 @@ import javax.inject.Singleton
 
 @Singleton
 class NotificationPreference @Inject constructor(private val application: Application) {
-    
+
     private val dirasakan: String = application.getString(R.string.pref_notify_last_dirasakan)
     private val wilayah: String = application.getString(R.string.pref_notify_last_wilayah)
     private val kedalaman: String = application.getString(R.string.pref_notify_last_kedalaman)
@@ -23,14 +23,14 @@ class NotificationPreference @Inject constructor(private val application: Applic
     private val lintang: String = application.getString(R.string.pref_notify_last_lintang)
     private val dateTime: String = application.getString(R.string.pref_notify_last_datetime)
     private val shakemap: String = application.getString(R.string.pref_notify_last_shakemap)
-    
+
     private lateinit var preference: SharedPreferences
 
     fun initComponents(): NotificationPreference {
         preference = application.getSharedPreferences(PREFERENCE_NAME, Context.MODE_PRIVATE)
         return this
     }
-    
+
     fun setLastInfo(item: GempaItem) {
         preference.edit().apply {
             putString(tanggal, item.tanggal)
@@ -59,7 +59,7 @@ class NotificationPreference @Inject constructor(private val application: Applic
             lintang = preference.getString(lintang, "0.0"),
             dirasakan = preference.getString(dirasakan, "Tidak ada"),
             kedalaman = preference.getString(kedalaman, "0 km"),
-            potensi = preference.getString(potensi,"Tidak berpotensi tsunami"),
+            potensi = preference.getString(potensi, "Tidak berpotensi tsunami"),
             shakemap = preference.getString(shakemap, "0.mmi.jpg"),
             wilayah = preference.getString(wilayah, "0 km BaratDaya LEMBAH-UNK")
         )

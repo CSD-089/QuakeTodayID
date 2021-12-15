@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
     <EditTextPreference
-        app:key="@string/pref_notify_last_date"
         app:defaultValue="01 Jan 1970"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_date"
         app:title="Tanggal"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
-        app:key="@string/pref_notify_last_time"
         app:defaultValue="23:59:59 WIX"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_time"
         app:title="Jam"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
-        app:key="@string/pref_notify_last_datetime"
         app:defaultValue="01 Jan 1970T23:59:59+00.00"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_datetime"
         app:title="DateTime"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
-        app:key="@string/pref_notify_last_coordinates"
         app:defaultValue="0.0,0.0"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_coordinates"
         app:title="Coordinates"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
-        app:key="@string/pref_notify_last_lintang"
         app:defaultValue="0.0 LU"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_lintang"
         app:title="Lintang"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
-        app:key="@string/pref_notify_last_bujur"
         app:defaultValue="0.0 BB"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_bujur"
         app:title="Bujur"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
-        app:key="@string/pref_notify_last_magnitude"
         app:defaultValue="0.0"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_magnitude"
         app:title="Magnitude"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
-        app:key="@string/pref_notify_last_kedalaman"
         app:defaultValue="0 km"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_kedalaman"
         app:title="Kedalaman"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
-        app:key="@string/pref_notify_last_wilayah"
         app:defaultValue="0 km BaratDaya LEMBAH-UNK"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_wilayah"
         app:title="Wilayah"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
-        app:key="@string/pref_notify_last_potensi"
         app:defaultValue="Tidak berpotensi tsunami"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_potensi"
         app:title="Potensi"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
-        app:key="@string/pref_notify_last_dirasakan"
         app:defaultValue="Tidak ada"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_dirasakan"
         app:title="Dirasakan"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
-        app:key="@string/pref_notify_last_shakemap"
         app:defaultValue="0.mmi.jpg"
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_notify_last_shakemap"
         app:title="Shakemap"
-        app:useSimpleSummaryProvider="true"
-        app:iconSpaceReserved="false"/>
+        app:useSimpleSummaryProvider="true" />
 
 </PreferenceScreen>
