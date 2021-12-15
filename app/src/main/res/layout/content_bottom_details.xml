@@ -10,6 +10,13 @@
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
 
     <androidx.cardview.widget.CardView
+        android:layout_width="64dp"
+        android:layout_height="4dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="8dp"
+        android:layout_gravity="center"/>
+
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
