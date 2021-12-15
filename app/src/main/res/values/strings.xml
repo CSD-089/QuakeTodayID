@@ -2,23 +2,14 @@
     <string name="mapbox_access_token" tools:ignore="Typos">pk.eyJ1IjoiZHdpY2hhbjA5MDUiLCJhIjoiY2tqbjN0a2RpMmdxczJzbXBoMG9haHI4MiJ9.A9igjnT72OExzHRQw5ov8Q</string>
 
     <string name="app_name">Quake Today ID</string>
-    <string name="title_activity_dashboard">DashboardActivity</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Setelan</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
     <string name="rate_amp_review"><![CDATA[Rate & Review]]></string>
-    <string name="settings">Settings</string>
+    <string name="settings">Pengaturan</string>
     <string name="share">Share</string>
-    <string name="dashboard">Dashboard</string>
+    <string name="home">Beranda</string>
     <string name="last_update">Last Update …</string>
-    <string name="_0_0_sr">0.0 SR</string>
+    <string name="example_magnitude">0.0 SR</string>
 
     <string-array name="pref_themes_label">
         <item>@string/pref_theme_label_auto</item>
@@ -104,9 +95,9 @@
 
     <string name="notify_title">Informasi Gempa Bumi pada tanggal %s</string>
     <string name="notify_content">Gempa bumi berkekuatan %s SR telah terjadi pada %s %s dengan kedalaman %s. %s. %s</string>
-    <string name="about">About</string>
+    <string name="about">Tentang</string>
     <string name="info_aplikasi">Info Aplikasi</string>
     <string name="about_details">Ini adalah aplikasi berbasis android untuk mendapatkan informasi mengenai gempa bumi yang telah terjadi untuk Capstone Project Team CSD-089 Dicoding X Kampus Merdeka</string>
-    <string name="contributors">Contributors</string>
+    <string name="contributors">Kontributor</string>
     <string name="pref_map_style_title">Gaya Map</string>
 </resources>

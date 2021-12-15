@@ -4,6 +4,7 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.quaketodayid.R
 import com.example.quaketodayid.data.model.GempaItem
@@ -21,18 +22,27 @@ class ItemAdapter(private val data: List<GempaItem>) :
             val magnitude = entity.magnitude?.toDouble()
             binding.cardView.toGreen()
             with(binding) {
-                itemTime.text = "${entity.tanggal}, ${entity.jam}"
+                itemTime.text = "${entity.tanggal} ${entity.jam}"
                 itemLocation.text = entity.wilayah
                 itemMagnitude.text = "${entity.magnitude}SR"
                 if (magnitude != null) {
                     when (magnitude) {
                         in 0.0..4.9 -> {
+                            itemMagnitude.setTextColor(
+                                ContextCompat.getColor(binding.root.context, android.R.color.black)
+                            )
                             cardView.toGreen()
                         }
                         in 5.0..6.9 -> {
+                            itemMagnitude.setTextColor(
+                                ContextCompat.getColor(binding.root.context, android.R.color.black)
+                            )
                             cardView.toYellow()
                         }
                         else -> {
+                            itemMagnitude.setTextColor(
+                                ContextCompat.getColor(binding.root.context, android.R.color.white)
+                            )
                             cardView.toRed()
                         }
                     }
