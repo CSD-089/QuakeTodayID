@@ -26,7 +26,7 @@ class SettingFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         childFragmentManager.beginTransaction()
-            .add(R.id.setting_holder, PreferenceFragment())
+            .add(R.id.fragment_settings, PreferenceFragment())
             .commit()
     }
 
