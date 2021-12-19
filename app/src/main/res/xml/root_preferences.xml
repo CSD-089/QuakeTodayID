@@ -36,4 +36,16 @@
             app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="Lainnya">
+
+        <Preference
+            app:title="Bersihkan Gempa Terakhir"
+            app:key="@string/pref_other_reset_last_quake"
+            app:iconSpaceReserved="false"
+            app:summary="Bersihkan informasi gempa terbaru jika notifikasi tidak muncul" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

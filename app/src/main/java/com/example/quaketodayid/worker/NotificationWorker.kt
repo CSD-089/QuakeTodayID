@@ -17,6 +17,7 @@ import com.example.quaketodayid.data.model.GempaItem
 import com.example.quaketodayid.data.network.NetworkRepository
 import com.example.quaketodayid.data.network.StatusResponse
 import com.example.quaketodayid.ui.detail.DetailGempaActivity
+import com.example.quaketodayid.utils.IdlingResources
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 
@@ -39,6 +40,7 @@ class NotificationWorker @AssistedInject constructor(
     }
 
     override fun doWork(): Result {
+        IdlingResources.beginIdle()
         val api = networkRepository.getAutoGempaSync()
         val local = notificationPreference.initComponents().getLastInfo()
 
@@ -48,17 +50,24 @@ class NotificationWorker @AssistedInject constructor(
                     showNotification(api.body)
                     notificationPreference.initComponents().setLastInfo(api.body)
                 }
+                IdlingResources.endIdle()
                 return Result.success()
             }
             StatusResponse.ERROR -> {
                 Log.e("NotificationWorker", api.message.toString())
-                return Result.failure()
+                IdlingResources.endIdle()
+                return Result.retry()
             }
             StatusResponse.EMPTY -> {
                 Log.d("NotificationWorker", "Empty data received")
+                IdlingResources.endIdle()
                 return Result.success()
             }
-            else -> return Result.failure()
+            else -> {
+                Log.d("NotificationWorker", "Unknown Reason")
+                IdlingResources.endIdle()
+                return Result.retry()
+            }
         }
     }
 

@@ -3,14 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/drawable/ic_terkini.xml" value="0.103125" />
         <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/activity_detail_gempa.xml" value="0.18" />
         <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/activity_shake_map_view.xml" value="0.22" />
         <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/app_bar_dashboard.xml" value="0.33" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/content_bottom_details.xml" value="0.67" />
         <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/content_dashboard.xml" value="0.2" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/fragment_about.xml" value="0.18703703703703703" />
         <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/fragment_dirasakan.xml" value="0.18703703703703703" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/fragment_rating.xml" value="0.18703703703703703" />
         <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/fragment_setting.xml" value="0.18981481481481483" />
-        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/gempa_item.xml" value="0.19814814814814816" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/fragment_share.xml" value="0.203125" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/fragment_terbaru.xml" value="0.25" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/fragment_terkini.xml" value="0.1814814814814815" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/gempa_item.xml" value="0.33" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/layout/nav_header_dashboard.xml" value="0.21" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/menu/activity_main_drawer.xml" value="0.2" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/menu/bottom_nav.xml" value="0.18703703703703703" />
         <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/menu/dashboard.xml" value="0.19814814814814816" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21927083333333333" />
+        <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21927083333333333" />
         <entry key="..\:/Studies/Kuliah/MBKM/7 - SIB Dicoding/Project/Capstone Project/QuakeTodayID/app/src/main/res/xml/root_preferences.xml" value="0.33" />
       </map>
     </option>

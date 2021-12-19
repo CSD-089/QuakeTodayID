@@ -6,6 +6,7 @@ import com.example.quaketodayid.data.model.AutoGempaResponse
 import com.example.quaketodayid.data.model.GempaDirasakan
 import com.example.quaketodayid.data.model.GempaItem
 import com.example.quaketodayid.data.model.NewestGempaResponse
+import com.example.quaketodayid.utils.IdlingResources
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -16,6 +17,7 @@ import javax.inject.Singleton
 class NetworkRepository @Inject constructor(private val service: ApiService) {
 
     fun getAutoGempa(): LiveData<ApiResponse<AutoGempaResponse>> {
+        IdlingResources.beginIdle()
         val result = MutableLiveData<ApiResponse<AutoGempaResponse>>()
         val api = service.getAutoGempa()
         api.enqueue(object : Callback<AutoGempaResponse> {
@@ -37,6 +39,7 @@ class NetworkRepository @Inject constructor(private val service: ApiService) {
                         AutoGempaResponse()
                     )
                 }
+                IdlingResources.endIdle()
             }
 
             override fun onFailure(call: Call<AutoGempaResponse>, t: Throwable) {
@@ -44,6 +47,7 @@ class NetworkRepository @Inject constructor(private val service: ApiService) {
                     "An Error reported [UNKNOWN]. We will fix it immediately.",
                     AutoGempaResponse()
                 )
+                IdlingResources.endIdle()
             }
         })
         return result
@@ -61,6 +65,7 @@ class NetworkRepository @Inject constructor(private val service: ApiService) {
     }
 
     fun getGempaTerbaru(): LiveData<ApiResponse<NewestGempaResponse>> {
+        IdlingResources.beginIdle()
         val result = MutableLiveData<ApiResponse<NewestGempaResponse>>()
         val api = service.getNewestGempa()
         api.enqueue(object : Callback<NewestGempaResponse> {
@@ -82,6 +87,7 @@ class NetworkRepository @Inject constructor(private val service: ApiService) {
                         NewestGempaResponse()
                     )
                 }
+                IdlingResources.endIdle()
             }
 
             override fun onFailure(call: Call<NewestGempaResponse>, t: Throwable) {
@@ -89,12 +95,14 @@ class NetworkRepository @Inject constructor(private val service: ApiService) {
                     "An Error reported [UNKNOWN]. We will fix it immediately.",
                     NewestGempaResponse()
                 )
+                IdlingResources.endIdle()
             }
         })
         return result
     }
 
     fun getGempaDirasakan(): LiveData<ApiResponse<GempaDirasakan>> {
+        IdlingResources.beginIdle()
         val result = MutableLiveData<ApiResponse<GempaDirasakan>>()
         val api = service.getGempaDirasakan()
         api.enqueue(object : Callback<GempaDirasakan> {
@@ -116,6 +124,7 @@ class NetworkRepository @Inject constructor(private val service: ApiService) {
                         GempaDirasakan()
                     )
                 }
+                IdlingResources.endIdle()
             }
 
             override fun onFailure(call: Call<GempaDirasakan>, t: Throwable) {
@@ -123,6 +132,7 @@ class NetworkRepository @Inject constructor(private val service: ApiService) {
                     "An Error reported [UNKNOWN]. We will fix it immediately.",
                     GempaDirasakan()
                 )
+                IdlingResources.endIdle()
             }
         })
         return result

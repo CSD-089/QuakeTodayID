@@ -1,0 +1,690 @@
+-- Merging decision tree log ---
+provider#androidx.startup.InitializationProvider
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:24:9-27:35
+REJECTED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a71e588772f25f37d2ed7ce2748938b8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a71e588772f25f37d2ed7ce2748938b8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e8f5d3f1abf3a45d48ae5c960fc17fd3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e8f5d3f1abf3a45d48ae5c960fc17fd3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a348c2f93a01970346bbdc14e3e2b589\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a348c2f93a01970346bbdc14e3e2b589\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:27:13-32
+	android:authorities
+		INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a71e588772f25f37d2ed7ce2748938b8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:25:13-67
+manifest
+ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:2:1-46:12
+MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\f70c0abb697bc0e4ac0a35eed9ea7766\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\69673b109f80a5232db75a71ce1099a7\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\87a9e8f1f2563fbda7955096ca40e269\transformed\jetified-preference-ktx-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a18da7f77c8ac00fd583b93048711dd1\transformed\jetified-fragment-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a5f4541a7c909e68a8bf870c98c37adc\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e696590d208381198d034451ebde8cbc\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\960fba3c49aec73e8c8d69d9614b0255\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b900254315625a3220d6b9ac37fe2b6a\transformed\jetified-lifecycle-viewmodel-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1767c6c515596fa6afc04b3acc8f80fb\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\117497bfec779693b022ce5b67c313e1\transformed\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d42740f2e66f0d7284b8a414fc3633ce\transformed\jetified-lifecycle-livedata-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ac8928c8cde1cc178013bdba411e35a9\transformed\jetified-lottie-4.2.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v8:0.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\743edcc1a5584718fbe53ad7368495ce\transformed\jetified-mapbox-android-plugin-annotation-v8-0.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:2:1-21:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9a1a7d82978ebf4a006bbf772c5d324a\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\62749baa671271718f40789c51de8e98\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9de1d9419bb7cba469b6e3f9f157aa28\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9dd630ebaec34cb1303319d3adbb2809\transformed\preference-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\fb731faf5f9f70834cddde90e58c23f3\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\28920796d37cd5a5aa5a9f3b5b86948a\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.hilt:hilt-work:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a7066f92218d8d3c7dca0450e3847be7\transformed\jetified-hilt-work-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.40.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ab918ffb9026c968fa99073973323ff2\transformed\jetified-hilt-android-2.40.5\AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d489c46ae7887e6c0fba682d3a39f9e1\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\68ff172c8b6528eeeb3c6611998be7f1\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\768baa28f9a5658ab8a2cafdc4d30352\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a6fcd72d629fbfb751eab58d66239301\transformed\fragment-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\209301ac93b269433df63f677d3221e4\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\09177aac06442cb71c6a3ce25bd2a417\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\4b5e8c56bb87fb121743dd8d9781ed7f\transformed\espresso-idling-resource-3.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.room:room-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\6eb8e0d884faff14a0786c02a8122649\transformed\room-runtime-2.4.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ee93418ae1dbb49275c33811d1df567e\transformed\jetified-TouchImageView-1.4.1\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\5984908b57208275e8c62dea8db4fa51\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\dc3509508e9332298e27faab2c9491dd\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a71e588772f25f37d2ed7ce2748938b8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\834d0038849eeebf77ee4583a087e359\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\4f85e11202e3d4d2a552b845abf0a97e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1914b8eea8df56e63d235856122063fe\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d39714cf167359ef6f0c40c7ad253d35\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\df94154adc8c49f37a555dad03149de6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\66cd75b7e354f61295e05cbe4812b139\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a459dcba01230f4b06a826306c00f847\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\4d18f4b3c689c5acddcf37504962ce44\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9269868f0b746e8538010ce2aff14b1b\transformed\jetified-activity-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\7a5937b9b5878d88da7fceefd6ecd0c2\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\c86e39470217493ebe0ce29b24461730\transformed\jetified-mapbox-android-gestures-0.7.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\06a32b6b485fed1da63ae98fed9e590e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\5a5646528562d239260348a9a514583f\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\00f639820f6d8d7a1cd95dac875dc0a0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\32ea20a729dcd753db14a1233df28354\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\7858841b8b5fe79691184c0d5b9f7442\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\be63b9537dc699da2f8b71f4210813f1\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\353bd0a5f53a3115a90c1853c8effde9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\667f1c069b23aabf05a34ed1c769b58d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\f256a55334973f355ef7f4198634414e\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1cc26f9c3dd7dad1415c1aa1c5ae2acb\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\05ddf26478145b64631826e502652052\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\5b3cdc04acfda42c65e96199eec0817b\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\856cc62e319d28ce3d5302c9da3fca5d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\03c77d4c31035aad7c89fab11537aee5\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\90d03885e4550835167207b06c0ceb3a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d9e0821c122011980d2bafb1594c993d\transformed\lifecycle-viewmodel-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\95a7fe9be2cf1431be9881d5a83ff5c7\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\c48774f539ec0d333e2863c7c4551f19\transformed\sqlite-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\25aa33d4775e90ad3fb0da14c05b56f5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b05974a598ad5c6dbea14bfb35c6ad76\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\3acdfa1568784a23b3baf6d29b809e9d\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b9eec30b846bab121435cd9a25ff18a6\transformed\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e8f5d3f1abf3a45d48ae5c960fc17fd3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a348c2f93a01970346bbdc14e3e2b589\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e7e6967f29b78692c77cd1c3bfa04ec6\transformed\lifecycle-livedata-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\848f7aed1e5d50f5024523d77e42152b\transformed\jetified-lifecycle-livedata-core-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\c781f3f5bdc5873331311f065bf88e14\transformed\lifecycle-livedata-core-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b9bcc361d4b1b2622da2cb2e7a12b2fa\transformed\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\0d1fa052a01630fb3664aca1f167d184\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\817e4ad6c952f899c8db21c5e659f8ee\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\cc921e20ff5e850e605e43929a6d36d6\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\2b0ca68c117dd01b026cfb2cd7704c56\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\74582618eda89390af0331d12ce4bbf4\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ad1e3139b5ab2daea8cc9d340650eed3\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\dd46ef909803ec6bf5d07beb19e9f969\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\89b6099dfc00977b3a285b320ee74142\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.40.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\57808e6648a20dc005ef35b88e25582f\transformed\jetified-dagger-lint-aar-2.40.5\AndroidManifest.xml:16:1-19:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:3.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b9c82a15a6c26219c1ee6e779e8b6f10\transformed\jetified-mapbox-android-core-3.0.0\AndroidManifest.xml:2:1-13:12
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:8:22-64
+application
+ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:10:5-44:19
+MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ac8928c8cde1cc178013bdba411e35a9\transformed\jetified-lottie-4.2.2\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ac8928c8cde1cc178013bdba411e35a9\transformed\jetified-lottie-4.2.2\AndroidManifest.xml:9:5-20
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:17:5-27:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:17:5-27:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\62749baa671271718f40789c51de8e98\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\62749baa671271718f40789c51de8e98\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9de1d9419bb7cba469b6e3f9f157aa28\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9de1d9419bb7cba469b6e3f9f157aa28\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\68ff172c8b6528eeeb3c6611998be7f1\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\68ff172c8b6528eeeb3c6611998be7f1\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.room:room-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\6eb8e0d884faff14a0786c02a8122649\transformed\room-runtime-2.4.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\6eb8e0d884faff14a0786c02a8122649\transformed\room-runtime-2.4.0\AndroidManifest.xml:24:5-29:19
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ee93418ae1dbb49275c33811d1df567e\transformed\jetified-TouchImageView-1.4.1\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ee93418ae1dbb49275c33811d1df567e\transformed\jetified-TouchImageView-1.4.1\AndroidManifest.xml:11:5-14:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a71e588772f25f37d2ed7ce2748938b8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a71e588772f25f37d2ed7ce2748938b8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1cc26f9c3dd7dad1415c1aa1c5ae2acb\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1cc26f9c3dd7dad1415c1aa1c5ae2acb\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\25aa33d4775e90ad3fb0da14c05b56f5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\25aa33d4775e90ad3fb0da14c05b56f5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b05974a598ad5c6dbea14bfb35c6ad76\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b05974a598ad5c6dbea14bfb35c6ad76\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e8f5d3f1abf3a45d48ae5c960fc17fd3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e8f5d3f1abf3a45d48ae5c960fc17fd3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a348c2f93a01970346bbdc14e3e2b589\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a348c2f93a01970346bbdc14e3e2b589\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1cc26f9c3dd7dad1415c1aa1c5ae2acb\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:14:9-41
+	tools:ignore
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:18:9-35
+	android:roundIcon
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:17:9-50
+	android:name
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:11:9-32
+activity#com.example.quaketodayid.ui.shakemap.ShakeMapViewActivity
+ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:19:9-22:84
+	android:exported
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:21:13-37
+	android:theme
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:22:13-81
+	android:name
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:20:13-61
+activity#com.example.quaketodayid.ui.detail.DetailGempaActivity
+ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:29:9-33:66
+	android:parentActivityName
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:33:13-63
+	android:label
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:32:13-41
+	android:exported
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:30:13-58
+activity#com.example.quaketodayid.ui.main.MainActivity
+ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:34:9-43:20
+	android:exported
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:36:13-36
+	android:theme
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:37:13-66
+	android:name
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:35:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml:41:27-74
+uses-sdk
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\f70c0abb697bc0e4ac0a35eed9ea7766\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\f70c0abb697bc0e4ac0a35eed9ea7766\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\69673b109f80a5232db75a71ce1099a7\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\69673b109f80a5232db75a71ce1099a7\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\87a9e8f1f2563fbda7955096ca40e269\transformed\jetified-preference-ktx-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\87a9e8f1f2563fbda7955096ca40e269\transformed\jetified-preference-ktx-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a18da7f77c8ac00fd583b93048711dd1\transformed\jetified-fragment-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a18da7f77c8ac00fd583b93048711dd1\transformed\jetified-fragment-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a5f4541a7c909e68a8bf870c98c37adc\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a5f4541a7c909e68a8bf870c98c37adc\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e696590d208381198d034451ebde8cbc\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e696590d208381198d034451ebde8cbc\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\960fba3c49aec73e8c8d69d9614b0255\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\960fba3c49aec73e8c8d69d9614b0255\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b900254315625a3220d6b9ac37fe2b6a\transformed\jetified-lifecycle-viewmodel-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b900254315625a3220d6b9ac37fe2b6a\transformed\jetified-lifecycle-viewmodel-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1767c6c515596fa6afc04b3acc8f80fb\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1767c6c515596fa6afc04b3acc8f80fb\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\117497bfec779693b022ce5b67c313e1\transformed\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\117497bfec779693b022ce5b67c313e1\transformed\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d42740f2e66f0d7284b8a414fc3633ce\transformed\jetified-lifecycle-livedata-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d42740f2e66f0d7284b8a414fc3633ce\transformed\jetified-lifecycle-livedata-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ac8928c8cde1cc178013bdba411e35a9\transformed\jetified-lottie-4.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ac8928c8cde1cc178013bdba411e35a9\transformed\jetified-lottie-4.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v8:0.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\743edcc1a5584718fbe53ad7368495ce\transformed\jetified-mapbox-android-plugin-annotation-v8-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v8:0.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\743edcc1a5584718fbe53ad7368495ce\transformed\jetified-mapbox-android-plugin-annotation-v8-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9a1a7d82978ebf4a006bbf772c5d324a\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9a1a7d82978ebf4a006bbf772c5d324a\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\62749baa671271718f40789c51de8e98\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\62749baa671271718f40789c51de8e98\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9de1d9419bb7cba469b6e3f9f157aa28\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9de1d9419bb7cba469b6e3f9f157aa28\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9dd630ebaec34cb1303319d3adbb2809\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9dd630ebaec34cb1303319d3adbb2809\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\fb731faf5f9f70834cddde90e58c23f3\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\fb731faf5f9f70834cddde90e58c23f3\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\28920796d37cd5a5aa5a9f3b5b86948a\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\28920796d37cd5a5aa5a9f3b5b86948a\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-work:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a7066f92218d8d3c7dca0450e3847be7\transformed\jetified-hilt-work-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-work:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a7066f92218d8d3c7dca0450e3847be7\transformed\jetified-hilt-work-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.40.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ab918ffb9026c968fa99073973323ff2\transformed\jetified-hilt-android-2.40.5\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.40.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ab918ffb9026c968fa99073973323ff2\transformed\jetified-hilt-android-2.40.5\AndroidManifest.xml:18:3-42
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d489c46ae7887e6c0fba682d3a39f9e1\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d489c46ae7887e6c0fba682d3a39f9e1\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\68ff172c8b6528eeeb3c6611998be7f1\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\68ff172c8b6528eeeb3c6611998be7f1\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\768baa28f9a5658ab8a2cafdc4d30352\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\768baa28f9a5658ab8a2cafdc4d30352\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a6fcd72d629fbfb751eab58d66239301\transformed\fragment-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a6fcd72d629fbfb751eab58d66239301\transformed\fragment-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\209301ac93b269433df63f677d3221e4\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\209301ac93b269433df63f677d3221e4\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\09177aac06442cb71c6a3ce25bd2a417\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\09177aac06442cb71c6a3ce25bd2a417\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\4b5e8c56bb87fb121743dd8d9781ed7f\transformed\espresso-idling-resource-3.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\4b5e8c56bb87fb121743dd8d9781ed7f\transformed\espresso-idling-resource-3.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.room:room-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\6eb8e0d884faff14a0786c02a8122649\transformed\room-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\6eb8e0d884faff14a0786c02a8122649\transformed\room-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ee93418ae1dbb49275c33811d1df567e\transformed\jetified-TouchImageView-1.4.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ee93418ae1dbb49275c33811d1df567e\transformed\jetified-TouchImageView-1.4.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\5984908b57208275e8c62dea8db4fa51\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\5984908b57208275e8c62dea8db4fa51\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\dc3509508e9332298e27faab2c9491dd\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\dc3509508e9332298e27faab2c9491dd\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a71e588772f25f37d2ed7ce2748938b8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a71e588772f25f37d2ed7ce2748938b8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\834d0038849eeebf77ee4583a087e359\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\834d0038849eeebf77ee4583a087e359\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\4f85e11202e3d4d2a552b845abf0a97e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\4f85e11202e3d4d2a552b845abf0a97e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1914b8eea8df56e63d235856122063fe\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1914b8eea8df56e63d235856122063fe\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d39714cf167359ef6f0c40c7ad253d35\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d39714cf167359ef6f0c40c7ad253d35\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\df94154adc8c49f37a555dad03149de6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\df94154adc8c49f37a555dad03149de6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\66cd75b7e354f61295e05cbe4812b139\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\66cd75b7e354f61295e05cbe4812b139\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a459dcba01230f4b06a826306c00f847\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a459dcba01230f4b06a826306c00f847\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\4d18f4b3c689c5acddcf37504962ce44\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\4d18f4b3c689c5acddcf37504962ce44\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9269868f0b746e8538010ce2aff14b1b\transformed\jetified-activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\9269868f0b746e8538010ce2aff14b1b\transformed\jetified-activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\7a5937b9b5878d88da7fceefd6ecd0c2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\7a5937b9b5878d88da7fceefd6ecd0c2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\c86e39470217493ebe0ce29b24461730\transformed\jetified-mapbox-android-gestures-0.7.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\c86e39470217493ebe0ce29b24461730\transformed\jetified-mapbox-android-gestures-0.7.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\06a32b6b485fed1da63ae98fed9e590e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\06a32b6b485fed1da63ae98fed9e590e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\5a5646528562d239260348a9a514583f\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\5a5646528562d239260348a9a514583f\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\00f639820f6d8d7a1cd95dac875dc0a0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\00f639820f6d8d7a1cd95dac875dc0a0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\32ea20a729dcd753db14a1233df28354\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\32ea20a729dcd753db14a1233df28354\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\7858841b8b5fe79691184c0d5b9f7442\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\7858841b8b5fe79691184c0d5b9f7442\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\be63b9537dc699da2f8b71f4210813f1\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\be63b9537dc699da2f8b71f4210813f1\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\353bd0a5f53a3115a90c1853c8effde9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\353bd0a5f53a3115a90c1853c8effde9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\667f1c069b23aabf05a34ed1c769b58d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\667f1c069b23aabf05a34ed1c769b58d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\f256a55334973f355ef7f4198634414e\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\f256a55334973f355ef7f4198634414e\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1cc26f9c3dd7dad1415c1aa1c5ae2acb\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\1cc26f9c3dd7dad1415c1aa1c5ae2acb\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\05ddf26478145b64631826e502652052\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\05ddf26478145b64631826e502652052\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\5b3cdc04acfda42c65e96199eec0817b\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\5b3cdc04acfda42c65e96199eec0817b\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\856cc62e319d28ce3d5302c9da3fca5d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\856cc62e319d28ce3d5302c9da3fca5d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\03c77d4c31035aad7c89fab11537aee5\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\03c77d4c31035aad7c89fab11537aee5\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\90d03885e4550835167207b06c0ceb3a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\90d03885e4550835167207b06c0ceb3a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d9e0821c122011980d2bafb1594c993d\transformed\lifecycle-viewmodel-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\d9e0821c122011980d2bafb1594c993d\transformed\lifecycle-viewmodel-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\95a7fe9be2cf1431be9881d5a83ff5c7\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\95a7fe9be2cf1431be9881d5a83ff5c7\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\c48774f539ec0d333e2863c7c4551f19\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\c48774f539ec0d333e2863c7c4551f19\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\25aa33d4775e90ad3fb0da14c05b56f5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\25aa33d4775e90ad3fb0da14c05b56f5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b05974a598ad5c6dbea14bfb35c6ad76\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b05974a598ad5c6dbea14bfb35c6ad76\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\3acdfa1568784a23b3baf6d29b809e9d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\3acdfa1568784a23b3baf6d29b809e9d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b9eec30b846bab121435cd9a25ff18a6\transformed\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b9eec30b846bab121435cd9a25ff18a6\transformed\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e8f5d3f1abf3a45d48ae5c960fc17fd3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e8f5d3f1abf3a45d48ae5c960fc17fd3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a348c2f93a01970346bbdc14e3e2b589\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a348c2f93a01970346bbdc14e3e2b589\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e7e6967f29b78692c77cd1c3bfa04ec6\transformed\lifecycle-livedata-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e7e6967f29b78692c77cd1c3bfa04ec6\transformed\lifecycle-livedata-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\848f7aed1e5d50f5024523d77e42152b\transformed\jetified-lifecycle-livedata-core-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\848f7aed1e5d50f5024523d77e42152b\transformed\jetified-lifecycle-livedata-core-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\c781f3f5bdc5873331311f065bf88e14\transformed\lifecycle-livedata-core-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\c781f3f5bdc5873331311f065bf88e14\transformed\lifecycle-livedata-core-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b9bcc361d4b1b2622da2cb2e7a12b2fa\transformed\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b9bcc361d4b1b2622da2cb2e7a12b2fa\transformed\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\0d1fa052a01630fb3664aca1f167d184\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\0d1fa052a01630fb3664aca1f167d184\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\817e4ad6c952f899c8db21c5e659f8ee\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\817e4ad6c952f899c8db21c5e659f8ee\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\cc921e20ff5e850e605e43929a6d36d6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\cc921e20ff5e850e605e43929a6d36d6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\2b0ca68c117dd01b026cfb2cd7704c56\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\2b0ca68c117dd01b026cfb2cd7704c56\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\74582618eda89390af0331d12ce4bbf4\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\74582618eda89390af0331d12ce4bbf4\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ad1e3139b5ab2daea8cc9d340650eed3\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\ad1e3139b5ab2daea8cc9d340650eed3\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\dd46ef909803ec6bf5d07beb19e9f969\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\dd46ef909803ec6bf5d07beb19e9f969\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\89b6099dfc00977b3a285b320ee74142\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\89b6099dfc00977b3a285b320ee74142\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.40.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\57808e6648a20dc005ef35b88e25582f\transformed\jetified-dagger-lint-aar-2.40.5\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.40.5] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\57808e6648a20dc005ef35b88e25582f\transformed\jetified-dagger-lint-aar-2.40.5\AndroidManifest.xml:18:3-42
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:3.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b9c82a15a6c26219c1ee6e779e8b6f10\transformed\jetified-mapbox-android-core-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:3.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b9c82a15a6c26219c1ee6e779e8b6f10\transformed\jetified-mapbox-android-core-3.0.0\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+		ADDED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studies\Kuliah\MBKM\7 - SIB Dicoding\Project\Capstone Project\QuakeTodayID\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:9:5-11:35
+	android:glEsVersion
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:10:9-41
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:11:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:13:9-45
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:13:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:3.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b9c82a15a6c26219c1ee6e779e8b6f10\transformed\jetified-mapbox-android-core-3.0.0\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:3.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\b9c82a15a6c26219c1ee6e779e8b6f10\transformed\jetified-mapbox-android-core-3.0.0\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:14:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\422ade3ef679dfa4f09ab3ff885757d0\transformed\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:12:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:12:22-65
+provider#com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:18:9-22:39
+	android:authorities
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:20:13-79
+	android:exported
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:21:13-37
+	android:initOrder
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:19:13-93
+service#com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:24:9-26:72
+	android:permission
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:26:13-69
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\36fa2414fe16493fdcc144d11294e744\transformed\jetified-mapbox-android-telemetry-6.1.0\AndroidManifest.xml:25:13-93
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\30f1ebbda0cd6f0fa0de6a89da66bedf\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\6eb8e0d884faff14a0786c02a8122649\transformed\room-runtime-2.4.0\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\6eb8e0d884faff14a0786c02a8122649\transformed\room-runtime-2.4.0\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\6eb8e0d884faff14a0786c02a8122649\transformed\room-runtime-2.4.0\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\6eb8e0d884faff14a0786c02a8122649\transformed\room-runtime-2.4.0\AndroidManifest.xml:26:13-74
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a71e588772f25f37d2ed7ce2748938b8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a71e588772f25f37d2ed7ce2748938b8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\a71e588772f25f37d2ed7ce2748938b8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e8f5d3f1abf3a45d48ae5c960fc17fd3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e8f5d3f1abf3a45d48ae5c960fc17fd3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dwi Candra Permana\.gradle\caches\transforms-3\e8f5d3f1abf3a45d48ae5c960fc17fd3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
