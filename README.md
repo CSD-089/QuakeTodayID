@@ -9,7 +9,7 @@ Proyek ini menggunakan beberapa _library_ sebagai berikut:
 - Lottie
 - Espresso
 - Retrofit
-- Room
+- WorkManager
 - Glide
 - TouchImageView
 - MapBox
