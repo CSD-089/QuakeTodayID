@@ -1,6 +1,5 @@
 package com.example.quaketodayid.utils
 
-import androidx.lifecycle.LiveData
 import com.example.quaketodayid.data.model.*
 
 object DummyData {
@@ -39,10 +38,12 @@ object DummyData {
         return data
 
     }
-    fun getNewestGempa():NewestGempaResponse{
+
+    fun getNewestGempa(): NewestGempaResponse {
         return NewestGempaResponse(Infogempa(getDummyData()))
     }
-    fun getGempaDirasakan():GempaDirasakan{
+
+    fun getGempaDirasakan(): GempaDirasakan {
         return GempaDirasakan(Infogempa(getDummyData()))
     }
 

@@ -7,14 +7,10 @@ import com.example.quaketodayid.data.model.AutoGempaResponse
 import com.example.quaketodayid.data.model.GempaDirasakan
 import com.example.quaketodayid.data.model.NewestGempaResponse
 import com.example.quaketodayid.utils.DummyData
-import okhttp3.internal.tls.OkHostnameVerifier.verify
-import org.junit.Assert.*
-
-import org.junit.After
-import org.junit.Before
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNotNull
 import org.junit.Rule
 import org.junit.Test
-import org.mockito.Mock
 import org.mockito.Mockito.*
 
 class NetworkRepositoryTest {
@@ -39,19 +35,19 @@ class NetworkRepositoryTest {
 
         verify(networkRepository).getAutoGempa()
         assertNotNull(data)
-        assertEquals(autoGempa.infogempa,data.body?.infogempa)
+        assertEquals(autoGempa.infogempa, data.body?.infogempa)
     }
 
     @Test
     fun getAutoGempaSync() {
-        val dummyData =  ApiResponse.success(item)
+        val dummyData = ApiResponse.success(item)
 
         `when`(networkRepository.getAutoGempaSync()).thenReturn(dummyData)
         val data = networkRepository.getAutoGempaSync()
 
         verify(networkRepository).getAutoGempaSync()
         assertNotNull(data)
-        assertEquals(autoGempa.infogempa?.gempa,data.body)
+        assertEquals(autoGempa.infogempa?.gempa, data.body)
     }
 
     @Test
@@ -64,7 +60,7 @@ class NetworkRepositoryTest {
 
         verify(networkRepository).getGempaTerbaru()
         assertNotNull(data)
-        assertEquals(newestGempa.infogempa,data.body?.infogempa)
+        assertEquals(newestGempa.infogempa, data.body?.infogempa)
     }
 
     @Test
@@ -77,6 +73,6 @@ class NetworkRepositoryTest {
 
         verify(networkRepository).getGempaDirasakan()
         assertNotNull(data)
-        assertEquals(newestGempa.infogempa,data.body?.infogempa)
+        assertEquals(newestGempa.infogempa, data.body?.infogempa)
     }
 }

@@ -1,4 +1,0 @@
-com/example/quaketodayid/BaseApp_ComponentTreeDeps.java
- com.example.quaketodayid.BaseApp_ComponentTreeDeps
-dagger/hilt/internal/processedrootsentinel/codegen/_com_example_quaketodayid_BaseApp.java
- dagger.hilt.internal.processedrootsentinel.codegen._com_example_quaketodayid_BaseApp

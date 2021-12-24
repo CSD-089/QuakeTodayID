@@ -10,7 +10,6 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreference
 import androidx.work.PeriodicWorkRequest
 import androidx.work.WorkManager
-import com.example.quaketodayid.BaseApp
 import com.example.quaketodayid.R
 import com.example.quaketodayid.data.model.GempaItem
 import com.example.quaketodayid.worker.NotificationPreference
